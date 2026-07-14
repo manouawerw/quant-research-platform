@@ -47,6 +47,7 @@ def create_price_chart(
         annotation_text="Support / pullback zone",
         annotation_position="bottom right",
     )
+
     fig.add_hrect(
         y0=zones["resistance_low"],
         y1=zones["resistance_high"],
@@ -55,6 +56,7 @@ def create_price_chart(
         annotation_text="Resistance zone",
         annotation_position="top right",
     )
+
     fig.add_hline(
         y=zones["invalidation_level"],
         line_dash="dash",
@@ -77,11 +79,16 @@ def create_price_chart(
             "x": 0,
         },
     )
+
     return fig
 
 
-def create_volume_chart(ticker: str, bars: pd.DataFrame) -> go.Figure:
+def create_volume_chart(
+    ticker: str,
+    bars: pd.DataFrame,
+) -> go.Figure:
     fig = go.Figure()
+
     fig.add_trace(
         go.Bar(
             x=bars["timestamp"],
@@ -89,6 +96,7 @@ def create_volume_chart(ticker: str, bars: pd.DataFrame) -> go.Figure:
             name="Daily IEX volume",
         )
     )
+
     fig.add_trace(
         go.Scatter(
             x=bars["timestamp"],
@@ -97,6 +105,7 @@ def create_volume_chart(ticker: str, bars: pd.DataFrame) -> go.Figure:
             name="20-day average",
         )
     )
+
     fig.update_layout(
         title=f"{ticker} Volume",
         xaxis_title="Date",
@@ -104,11 +113,16 @@ def create_volume_chart(ticker: str, bars: pd.DataFrame) -> go.Figure:
         height=360,
         margin={"l": 20, "r": 20, "t": 60, "b": 20},
     )
+
     return fig
 
 
-def create_macd_chart(ticker: str, bars: pd.DataFrame) -> go.Figure:
+def create_macd_chart(
+    ticker: str,
+    bars: pd.DataFrame,
+) -> go.Figure:
     fig = go.Figure()
+
     fig.add_trace(
         go.Scatter(
             x=bars["timestamp"],
@@ -117,6 +131,7 @@ def create_macd_chart(ticker: str, bars: pd.DataFrame) -> go.Figure:
             name="MACD",
         )
     )
+
     fig.add_trace(
         go.Scatter(
             x=bars["timestamp"],
@@ -125,6 +140,7 @@ def create_macd_chart(ticker: str, bars: pd.DataFrame) -> go.Figure:
             name="Signal",
         )
     )
+
     fig.add_trace(
         go.Bar(
             x=bars["timestamp"],
@@ -132,17 +148,23 @@ def create_macd_chart(ticker: str, bars: pd.DataFrame) -> go.Figure:
             name="Histogram",
         )
     )
+
     fig.update_layout(
         title=f"{ticker} MACD",
         xaxis_title="Date",
         height=360,
         margin={"l": 20, "r": 20, "t": 60, "b": 20},
     )
+
     return fig
 
 
-def create_rsi_chart(ticker: str, bars: pd.DataFrame) -> go.Figure:
+def create_rsi_chart(
+    ticker: str,
+    bars: pd.DataFrame,
+) -> go.Figure:
     fig = go.Figure()
+
     fig.add_trace(
         go.Scatter(
             x=bars["timestamp"],
@@ -151,8 +173,19 @@ def create_rsi_chart(ticker: str, bars: pd.DataFrame) -> go.Figure:
             name="RSI (14)",
         )
     )
-    fig.add_hline(y=70, line_dash="dash", annotation_text="Overbought")
-    fig.add_hline(y=30, line_dash="dash", annotation_text="Oversold")
+
+    fig.add_hline(
+        y=70,
+        line_dash="dash",
+        annotation_text="Overbought",
+    )
+
+    fig.add_hline(
+        y=30,
+        line_dash="dash",
+        annotation_text="Oversold",
+    )
+
     fig.update_layout(
         title=f"{ticker} RSI",
         xaxis_title="Date",
@@ -161,4 +194,47 @@ def create_rsi_chart(ticker: str, bars: pd.DataFrame) -> go.Figure:
         height=360,
         margin={"l": 20, "r": 20, "t": 60, "b": 20},
     )
+
+    return fig
+
+
+def create_relative_strength_chart(
+    ticker: str,
+    benchmark: str,
+    relative_frame: pd.DataFrame,
+) -> go.Figure:
+    fig = go.Figure()
+
+    fig.add_trace(
+        go.Scatter(
+            x=relative_frame["date"],
+            y=relative_frame["relative_ratio_index"],
+            mode="lines",
+            name=f"{ticker}/{benchmark} relative strength",
+        )
+    )
+
+    fig.add_trace(
+        go.Scatter(
+            x=relative_frame["date"],
+            y=relative_frame["relative_ratio_sma_20"],
+            mode="lines",
+            name="20-day relative-strength average",
+        )
+    )
+
+    fig.add_hline(
+        y=100,
+        line_dash="dash",
+        annotation_text="Starting level",
+    )
+
+    fig.update_layout(
+        title=f"{ticker} Relative Strength vs {benchmark}",
+        xaxis_title="Date",
+        yaxis_title="Relative-strength index",
+        height=420,
+        margin={"l": 20, "r": 20, "t": 60, "b": 20},
+    )
+
     return fig
