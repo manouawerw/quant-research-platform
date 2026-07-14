@@ -4,6 +4,8 @@ from dataclasses import dataclass
 
 import pandas as pd
 
+from price_zones import PricePlan, build_price_plan
+
 
 @dataclass(frozen=True)
 class TechnicalSummary:
@@ -25,6 +27,8 @@ def calculate_indicators(bars: pd.DataFrame) -> pd.DataFrame:
 
     df["sma_20"] = df["close"].rolling(20).mean()
     df["sma_50"] = df["close"].rolling(50).mean()
+    df["sma_200"] = df["close"].rolling(200).mean()
+
     df["ema_12"] = df["close"].ewm(span=12, adjust=False).mean()
     df["ema_26"] = df["close"].ewm(span=26, adjust=False).mean()
 
@@ -33,6 +37,7 @@ def calculate_indicators(bars: pd.DataFrame) -> pd.DataFrame:
     df["macd_histogram"] = df["macd"] - df["macd_signal"]
 
     previous_close = df["close"].shift(1)
+
     true_range = pd.concat(
         [
             df["high"] - df["low"],
@@ -41,17 +46,33 @@ def calculate_indicators(bars: pd.DataFrame) -> pd.DataFrame:
         ],
         axis=1,
     ).max(axis=1)
+
     df["atr_14"] = true_range.rolling(14).mean()
 
     delta = df["close"].diff()
     gains = delta.clip(lower=0)
     losses = -delta.clip(upper=0)
 
-    avg_gain = gains.ewm(alpha=1 / 14, adjust=False, min_periods=14).mean()
-    avg_loss = losses.ewm(alpha=1 / 14, adjust=False, min_periods=14).mean()
+    avg_gain = gains.ewm(
+        alpha=1 / 14,
+        adjust=False,
+        min_periods=14,
+    ).mean()
+
+    avg_loss = losses.ewm(
+        alpha=1 / 14,
+        adjust=False,
+        min_periods=14,
+    ).mean()
+
     rs = avg_gain / avg_loss.replace(0, pd.NA)
+
     df["rsi_14"] = 100 - (100 / (1 + rs))
-    df.loc[(avg_loss == 0) & (avg_gain > 0), "rsi_14"] = 100
+
+    df.loc[
+        (avg_loss == 0) & (avg_gain > 0),
+        "rsi_14",
+    ] = 100
 
     df["high_20"] = df["high"].rolling(20).max()
     df["low_20"] = df["low"].rolling(20).min()
@@ -59,12 +80,18 @@ def calculate_indicators(bars: pd.DataFrame) -> pd.DataFrame:
     df["low_50"] = df["low"].rolling(50).min()
 
     df["daily_return"] = df["close"].pct_change()
-    df["volatility_20"] = df["daily_return"].rolling(20).std() * (252 ** 0.5)
+
+    df["volatility_20"] = (
+        df["daily_return"].rolling(20).std() * (252 ** 0.5)
+    )
 
     df["average_volume_20"] = df["volume"].rolling(20).mean()
-    df["relative_volume"] = df["volume"] / df["average_volume_20"]
+    df["relative_volume"] = (
+        df["volume"] / df["average_volume_20"]
+    )
 
     std_20 = df["close"].rolling(20).std()
+
     df["bollinger_upper"] = df["sma_20"] + 2 * std_20
     df["bollinger_lower"] = df["sma_20"] - 2 * std_20
 
@@ -83,11 +110,20 @@ def validate_indicators(latest: pd.Series) -> None:
         "relative_volume",
         "macd",
         "macd_signal",
+        "bollinger_upper",
+        "bollinger_lower",
     ]
-    missing = [name for name in required if pd.isna(latest[name])]
+
+    missing = [
+        name
+        for name in required
+        if pd.isna(latest[name])
+    ]
+
     if missing:
         raise ValueError(
-            "Not enough history to calculate: " + ", ".join(missing)
+            "Not enough history to calculate: "
+            + ", ".join(missing)
         )
 
 
@@ -100,12 +136,16 @@ def classify_trend(latest: pd.Series) -> str:
 
     if close > sma_20 > sma_50 and macd > signal:
         return "Bullish"
+
     if close < sma_20 < sma_50 and macd < signal:
         return "Bearish"
+
     if close > sma_20 > sma_50:
         return "Moderately bullish"
+
     if close < sma_20 < sma_50:
         return "Moderately bearish"
+
     return "Mixed"
 
 
@@ -125,26 +165,29 @@ def calculate_zones(
     latest: pd.Series,
     latest_price: float,
 ) -> dict[str, float]:
+    """
+    Compatibility fallback.
+
+    The app should now call build_price_plan(...) after relative strength
+    and market regime are known. This function remains for older code paths.
+    """
     atr = float(latest["atr_14"])
-    sma_20 = float(latest["sma_20"])
-    sma_50 = float(latest["sma_50"])
-    low_20 = float(latest["low_20"])
-    high_20 = float(latest["high_20"])
-    high_50 = float(latest["high_50"])
-
-    supports = [
-        value
-        for value in [latest_price - atr, sma_20, sma_50, low_20]
-        if value <= latest_price
-    ]
-    resistances = [
-        value
-        for value in [latest_price + atr, high_20, high_50]
-        if value >= latest_price
-    ]
-
-    support_center = max(supports) if supports else latest_price - atr
-    resistance_center = min(resistances) if resistances else latest_price + atr
+    support_center = min(
+        latest_price,
+        max(
+            float(latest["sma_20"]),
+            float(latest["sma_50"]),
+            float(latest["low_20"]),
+        ),
+    )
+    resistance_center = max(
+        latest_price,
+        min(
+            float(latest["high_20"]),
+            float(latest["high_50"]),
+            latest_price + atr,
+        ),
+    )
     tolerance = atr * 0.20
 
     support_low = support_center - tolerance
@@ -176,8 +219,10 @@ def calculate_risk_reward(
 ) -> float | None:
     reward = target_price - entry_price
     risk = entry_price - invalidation_price
+
     if risk <= 0:
         return None
+
     return reward / risk
 
 
@@ -186,12 +231,27 @@ def determine_status(
     zones: dict[str, float],
     trend: str,
 ) -> str:
-    if zones["pullback_entry_low"] <= latest_price <= zones["pullback_entry_high"]:
-        return "PULLBACK ZONE REACHED" if "bullish" in trend.lower() else "AT SUPPORT"
-    if zones["breakout_entry_low"] <= latest_price <= zones["breakout_entry_high"]:
+    if (
+        zones["pullback_entry_low"]
+        <= latest_price
+        <= zones["pullback_entry_high"]
+    ):
+        return (
+            "PULLBACK ZONE REACHED"
+            if "bullish" in trend.lower()
+            else "AT SUPPORT"
+        )
+
+    if (
+        zones["breakout_entry_low"]
+        <= latest_price
+        <= zones["breakout_entry_high"]
+    ):
         return "BREAKOUT ZONE"
+
     if latest_price < zones["invalidation_level"]:
         return "TECHNICAL SETUP INVALIDATED"
+
     return "WAIT"
 
 
@@ -204,14 +264,18 @@ def build_technical_summary(
     trend = classify_trend(latest)
     rsi = float(latest["rsi_14"])
     rsi_status = classify_rsi(rsi)
-    setup_status = determine_status(latest_price, zones, trend)
+    setup_status = determine_status(
+        latest_price,
+        zones,
+        trend,
+    )
 
     close = float(latest["close"])
     sma_20 = float(latest["sma_20"])
     sma_50 = float(latest["sma_50"])
     macd = float(latest["macd"])
     signal = float(latest["macd_signal"])
-    rel_volume = float(latest["relative_volume"])
+    relative_volume = float(latest["relative_volume"])
     volatility = float(latest["volatility_20"])
 
     trend_score = 0
@@ -220,15 +284,36 @@ def build_technical_summary(
     trend_score += 30 if macd > signal else 10
     trend_score = min(trend_score, 100)
 
-    momentum_score = 80 if 50 <= rsi <= 65 else 65 if 40 <= rsi < 70 else 40
+    momentum_score = (
+        80
+        if 50 <= rsi <= 65
+        else 65
+        if 40 <= rsi < 70
+        else 40
+    )
+
     if macd > signal:
         momentum_score = min(momentum_score + 10, 100)
 
-    volume_score = 85 if rel_volume >= 1.5 else 70 if rel_volume >= 1.0 else 50
+    volume_score = (
+        85
+        if relative_volume >= 1.5
+        else 70
+        if relative_volume >= 1.0
+        else 50
+    )
 
-    risk_score = 80 if volatility < 0.35 else 65 if volatility < 0.55 else 45
+    risk_score = (
+        80
+        if volatility < 0.35
+        else 65
+        if volatility < 0.55
+        else 45
+    )
+
     if rsi >= 75:
         risk_score -= 15
+
     risk_score = max(0, min(risk_score, 100))
 
     if risk_reward is None:
@@ -250,28 +335,36 @@ def build_technical_summary(
         + reward_risk_score * 0.20
     )
 
-    confidence = min(95, max(40, round(technical_score * 0.9)))
+    confidence = min(
+        95,
+        max(40, round(technical_score * 0.9)),
+    )
 
-    reasoning: list[str] = []
-    reasoning.append(
-        "Price is above the 20-day moving average."
-        if close > sma_20
-        else "Price is below the 20-day moving average."
-    )
-    reasoning.append(
-        "The 20-day moving average is above the 50-day moving average."
-        if sma_20 > sma_50
-        else "The 20-day moving average is not above the 50-day moving average."
-    )
-    reasoning.append(
-        "MACD is above its signal line."
-        if macd > signal
-        else "MACD is below its signal line."
-    )
-    reasoning.append(f"RSI is {rsi:.1f}, classified as {rsi_status.lower()}.")
-    reasoning.append(f"Relative volume is {rel_volume:.2f}× its 20-day average.")
+    reasoning = [
+        (
+            "Price is above the 20-day moving average."
+            if close > sma_20
+            else "Price is below the 20-day moving average."
+        ),
+        (
+            "The 20-day average is above the 50-day average."
+            if sma_20 > sma_50
+            else "The 20-day average is not above the 50-day average."
+        ),
+        (
+            "MACD is above its signal line."
+            if macd > signal
+            else "MACD is below its signal line."
+        ),
+        f"RSI is {rsi:.1f}, classified as {rsi_status.lower()}.",
+        f"Relative volume is {relative_volume:.2f}× its 20-day average.",
+    ]
+
     if risk_reward is not None:
-        reasoning.append(f"Estimated first-target reward/risk is {risk_reward:.2f}:1.")
+        reasoning.append(
+            f"Estimated first-target reward/risk is "
+            f"{risk_reward:.2f}:1."
+        )
 
     return TechnicalSummary(
         trend=trend,
@@ -286,3 +379,17 @@ def build_technical_summary(
         confidence=confidence,
         reasoning=reasoning,
     )
+
+
+__all__ = [
+    "PricePlan",
+    "build_price_plan",
+    "build_technical_summary",
+    "calculate_indicators",
+    "calculate_risk_reward",
+    "calculate_zones",
+    "classify_rsi",
+    "classify_trend",
+    "determine_status",
+    "validate_indicators",
+]

@@ -10,6 +10,7 @@ import os
 ALPACA_API_KEY = os.getenv("ALPACA_API_KEY")
 ALPACA_SECRET_KEY = os.getenv("ALPACA_SECRET_KEY")
 DATABASE_URL = os.getenv("DATABASE_URL")
+GEMINI_API_KEY = os.getenv("GEMINI_API_KEY")
 
 # Future APIs
 OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")

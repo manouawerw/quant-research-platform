@@ -4,3 +4,7 @@ pandas
 plotly
 sqlalchemy
 psycopg2-binary
+google-genai
+requests
+pydantic>=2
+python-dotenv

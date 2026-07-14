@@ -1,7 +1,8 @@
 from __future__ import annotations
 
+import json
 import os
-from datetime import datetime, timezone
+from datetime import datetime, timedelta, timezone
 from typing import Any
 
 from sqlalchemy import (
@@ -12,6 +13,7 @@ from sqlalchemy import (
     MetaData,
     String,
     Table,
+    Text,
     create_engine,
     desc,
     select,
@@ -54,7 +56,24 @@ analysis_runs = Table(
     Column("profit_zone_2_low", Float, nullable=False),
     Column("profit_zone_2_high", Float, nullable=False),
     Column("risk_reward", Float, nullable=True),
-    Column("model_version", String(50), nullable=False, default="technical-v2"),
+    Column("model_version", String(50), nullable=False, default="technical-v3"),
+)
+
+ai_reports = Table(
+    "ai_reports",
+    metadata,
+    Column("id", Integer, primary_key=True, autoincrement=True),
+    Column("ticker", String(20), nullable=False, index=True),
+    Column("generated_at", DateTime(timezone=True), nullable=False, index=True),
+    Column("expires_at", DateTime(timezone=True), nullable=False, index=True),
+    Column("trigger_type", String(30), nullable=False),
+    Column("technical_score", Integer, nullable=False),
+    Column("relative_strength_score", Integer, nullable=False),
+    Column("market_regime", String(50), nullable=False),
+    Column("model", String(100), nullable=False),
+    Column("report_markdown", Text, nullable=False),
+    Column("sources_json", Text, nullable=False),
+    Column("search_queries_json", Text, nullable=False),
 )
 
 
@@ -122,7 +141,7 @@ def save_analysis(
         "profit_zone_2_low": float(zones["profit_zone_2_low"]),
         "profit_zone_2_high": float(zones["profit_zone_2_high"]),
         "risk_reward": float(risk_reward) if risk_reward is not None else None,
-        "model_version": "technical-v2",
+        "model_version": "technical-v3",
     }
 
     with engine.begin() as connection:
@@ -141,6 +160,95 @@ def get_recent_analyses(
         .order_by(desc(analysis_runs.c.analyzed_at))
         .limit(limit)
     )
+
     with engine.connect() as connection:
         rows = connection.execute(query).mappings().all()
+
     return [dict(row) for row in rows]
+
+
+def save_ai_report(
+    engine: Engine,
+    *,
+    ticker: str,
+    trigger_type: str,
+    technical_score: int,
+    relative_strength_score: int,
+    market_regime: str,
+    model: str,
+    report_markdown: str,
+    sources: list[dict[str, str]],
+    search_queries: list[str],
+    cache_hours: int = 12,
+) -> int:
+    generated_at = datetime.now(timezone.utc)
+    expires_at = generated_at + timedelta(hours=cache_hours)
+
+    values = {
+        "ticker": ticker.upper(),
+        "generated_at": generated_at,
+        "expires_at": expires_at,
+        "trigger_type": trigger_type,
+        "technical_score": int(technical_score),
+        "relative_strength_score": int(relative_strength_score),
+        "market_regime": market_regime,
+        "model": model,
+        "report_markdown": report_markdown,
+        "sources_json": json.dumps(sources),
+        "search_queries_json": json.dumps(search_queries),
+    }
+
+    with engine.begin() as connection:
+        result = connection.execute(ai_reports.insert().values(**values))
+        return int(result.inserted_primary_key[0])
+
+
+def get_latest_ai_report(
+    engine: Engine,
+    ticker: str,
+    *,
+    fresh_only: bool = False,
+) -> dict[str, Any] | None:
+    query = (
+        select(ai_reports)
+        .where(ai_reports.c.ticker == ticker.upper())
+        .order_by(desc(ai_reports.c.generated_at))
+        .limit(1)
+    )
+
+    if fresh_only:
+        query = query.where(
+            ai_reports.c.expires_at > datetime.now(timezone.utc)
+        )
+
+    with engine.connect() as connection:
+        row = connection.execute(query).mappings().first()
+
+    if row is None:
+        return None
+
+    result = dict(row)
+    result["sources"] = json.loads(result.pop("sources_json"))
+    result["search_queries"] = json.loads(
+        result.pop("search_queries_json")
+    )
+    return result
+
+
+def count_ai_reports_today(
+    engine: Engine,
+) -> int:
+    today = datetime.now(timezone.utc).date()
+    start = datetime(
+        today.year,
+        today.month,
+        today.day,
+        tzinfo=timezone.utc,
+    )
+
+    query = select(ai_reports.c.id).where(
+        ai_reports.c.generated_at >= start
+    )
+
+    with engine.connect() as connection:
+        return len(connection.execute(query).all())
