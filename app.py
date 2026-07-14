@@ -23,10 +23,12 @@ from database import (
     count_ai_reports_today,
     get_database_engine,
     get_latest_ai_report,
+    get_latest_watchlist_snapshot,
     get_recent_analyses,
     initialize_database,
     save_ai_report,
     save_analysis,
+    save_watchlist_snapshot,
 )
 from market_data import get_stock_data
 from price_zones import build_price_plan
@@ -35,6 +37,7 @@ from relative_strength import (
     detect_market_regime,
 )
 from scoring import build_stock_score
+from watchlist_scanner import scan_watchlist
 
 
 AUTO_SCORE_THRESHOLD = 85
@@ -71,6 +74,9 @@ def initialize_session_state() -> None:
         "latest_report": None,
         "last_saved_analysis_id": None,
         "report_message": None,
+        "watchlist_text": (
+            "MU,AMD,NVDA,AAPL,MSFT,GOOGL,META,AMZN,TSM,AVGO"
+        ),
     }
 
     for key, value in defaults.items():
@@ -135,6 +141,237 @@ def display_ai_report(report: dict[str, Any]) -> None:
                     st.markdown(f"- [{title}]({url})")
 
 
+def save_scanner_results(
+    database_engine,
+    results,
+    benchmark: str,
+) -> str:
+    scan_group = datetime.now(timezone.utc).isoformat()
+
+    for result in results:
+        save_watchlist_snapshot(
+            database_engine,
+            result=result.to_dict(),
+            benchmark=benchmark,
+            scan_group=scan_group,
+        )
+
+    return scan_group
+
+
+def render_watchlist_page(database_engine) -> None:
+    st.header("Watchlist Scanner")
+    st.caption(
+        "Scan multiple tickers, rank attention priority and identify "
+        "pullback, breakout, wait and invalidated setups."
+    )
+
+    benchmark = st.selectbox(
+        "Scanner benchmark",
+        options=["SPY", "QQQ"],
+        key="scanner_benchmark",
+    )
+
+    watchlist_text = st.text_area(
+        "Tickers separated by commas",
+        value=st.session_state.watchlist_text,
+        height=100,
+    )
+
+    st.session_state.watchlist_text = watchlist_text
+
+    scan_clicked = st.button(
+        "Run watchlist scan",
+        type="primary",
+        use_container_width=True,
+    )
+
+    if scan_clicked:
+        tickers = [
+            ticker.strip().upper()
+            for ticker in watchlist_text.split(",")
+            if ticker.strip()
+        ]
+
+        if len(tickers) > 50:
+            st.error(
+                "Keep the manual scanner to 50 tickers or fewer for now."
+            )
+            return
+
+        with st.spinner(
+            f"Scanning {len(tickers)} tickers against {benchmark}..."
+        ):
+            results, errors = scan_watchlist(
+                tickers,
+                benchmark=benchmark,
+            )
+
+            if results:
+                save_scanner_results(
+                    database_engine,
+                    results,
+                    benchmark,
+                )
+
+            if errors:
+                with st.expander(
+                    f"Scanner errors ({len(errors)})"
+                ):
+                    st.dataframe(
+                        pd.DataFrame(errors),
+                        use_container_width=True,
+                        hide_index=True,
+                    )
+
+    snapshots = get_latest_watchlist_snapshot(
+        database_engine,
+        limit=100,
+    )
+
+    if not snapshots:
+        st.info(
+            "No saved watchlist scan exists yet. Run the scanner above."
+        )
+        return
+
+    scan_time = snapshots[0]["scanned_at"]
+
+    st.success(
+        f"Showing the latest saved scan from {scan_time}."
+    )
+
+    table = pd.DataFrame(snapshots)
+
+    table["Entry range"] = table.apply(
+        lambda row: format_range(
+            row["entry_low"],
+            row["entry_high"],
+        ),
+        axis=1,
+    )
+
+    table["Breakout range"] = table.apply(
+        lambda row: format_range(
+            row["breakout_entry_low"],
+            row["breakout_entry_high"],
+        ),
+        axis=1,
+    )
+
+    table["Target 1"] = table.apply(
+        lambda row: format_range(
+            row["target_1_low"],
+            row["target_1_high"],
+        ),
+        axis=1,
+    )
+
+    table["RR 1"] = table["risk_reward_1"].apply(
+        lambda value: (
+            f"{value:.2f}:1"
+            if pd.notna(value)
+            else "N/A"
+        )
+    )
+
+    display_columns = [
+        "ticker",
+        "attention_score",
+        "technical_score",
+        "relative_strength_score",
+        "latest_price",
+        "daily_change_pct",
+        "setup_status",
+        "Entry range",
+        "Breakout range",
+        "Target 1",
+        "RR 1",
+        "price_plan_confidence",
+        "market_regime",
+        "attention_reason",
+    ]
+
+    st.dataframe(
+        table[display_columns],
+        use_container_width=True,
+        hide_index=True,
+    )
+
+    st.subheader("Highest-priority names")
+
+    for row in snapshots[:10]:
+        with st.expander(
+            f"{row['ticker']} — attention {row['attention_score']}/100 "
+            f"— {row['setup_status']}"
+        ):
+            m1, m2, m3, m4 = st.columns(4)
+
+            m1.metric(
+                "Latest price",
+                f"${row['latest_price']:,.2f}",
+                f"{row['daily_change_pct']:+.2f}%",
+            )
+
+            m2.metric(
+                "Technical",
+                f"{row['technical_score']}/100",
+            )
+
+            m3.metric(
+                "Relative strength",
+                f"{row['relative_strength_score']}/100",
+                row["relative_strength_trend"],
+            )
+
+            m4.metric(
+                "Price-plan confidence",
+                f"{row['price_plan_confidence']}/100",
+            )
+
+            st.write(row["attention_reason"])
+
+            c1, c2 = st.columns(2)
+
+            with c1:
+                st.info(
+                    "**Pullback range**\n\n"
+                    + format_range(
+                        row["entry_low"],
+                        row["entry_high"],
+                    )
+                )
+
+                st.warning(
+                    "**Invalidation**\n\n"
+                    f"${row['invalidation']:,.2f}"
+                )
+
+            with c2:
+                st.info(
+                    "**Breakout range**\n\n"
+                    + format_range(
+                        row["breakout_entry_low"],
+                        row["breakout_entry_high"],
+                    )
+                )
+
+                st.info(
+                    "**Target 1**\n\n"
+                    + format_range(
+                        row["target_1_low"],
+                        row["target_1_high"],
+                    )
+                )
+
+            warnings = row.get("warnings", [])
+
+            if warnings:
+                st.markdown("**Warnings**")
+                for warning in warnings:
+                    st.write(f"• {warning}")
+
+
 def run_analysis(
     ticker: str,
     benchmark: str,
@@ -152,7 +389,7 @@ def run_analysis(
         (latest_price - previous_close) / previous_close * 100
     )
 
-    preliminary_zones = {
+    fallback_zones = {
         "support_low": float(latest["low_20"]),
         "support_high": float(latest["sma_20"]),
         "resistance_low": float(latest["high_20"]),
@@ -161,22 +398,27 @@ def run_analysis(
         "pullback_entry_high": float(latest["sma_20"]),
         "breakout_entry_low": float(latest["high_20"]),
         "breakout_entry_high": float(latest["high_50"]),
-        "invalidation_level": float(latest["low_20"])
-        - float(latest["atr_14"]),
-        "profit_zone_1_low": latest_price
-        + float(latest["atr_14"]),
-        "profit_zone_1_high": latest_price
-        + float(latest["atr_14"]) * 1.25,
-        "profit_zone_2_low": latest_price
-        + float(latest["atr_14"]) * 1.75,
-        "profit_zone_2_high": latest_price
-        + float(latest["atr_14"]) * 2.25,
+        "invalidation_level": (
+            float(latest["low_20"]) - float(latest["atr_14"])
+        ),
+        "profit_zone_1_low": (
+            latest_price + float(latest["atr_14"])
+        ),
+        "profit_zone_1_high": (
+            latest_price + float(latest["atr_14"]) * 1.25
+        ),
+        "profit_zone_2_low": (
+            latest_price + float(latest["atr_14"]) * 1.75
+        ),
+        "profit_zone_2_high": (
+            latest_price + float(latest["atr_14"]) * 2.25
+        ),
     }
 
     preliminary_summary = build_technical_summary(
         latest=latest,
         latest_price=latest_price,
-        zones=preliminary_zones,
+        zones=fallback_zones,
         risk_reward=None,
     )
 
@@ -263,14 +505,6 @@ def run_analysis(
             price_plan.breakout_entry_low,
             price_plan.breakout_entry_high,
         ],
-        "support_zone": [
-            price_plan.support_low,
-            price_plan.support_high,
-        ],
-        "resistance_zone": [
-            price_plan.resistance_low,
-            price_plan.resistance_high,
-        ],
         "invalidation_level": price_plan.invalidation,
         "profit_zone_1": [
             price_plan.target_1_low,
@@ -284,14 +518,6 @@ def run_analysis(
         "estimated_risk_reward_2": price_plan.risk_reward_2,
         "price_plan_reasons": price_plan.reasons,
         "price_plan_warnings": price_plan.warnings,
-        "score_components": [
-            {
-                "name": component.name,
-                "score": component.score,
-                "explanation": component.explanation,
-            }
-            for component in stock_score.components
-        ],
     }
 
     return {
@@ -317,62 +543,42 @@ def run_analysis(
     }
 
 
-initialize_session_state()
-database_engine = get_db_engine()
+def render_single_stock_page(database_engine) -> None:
+    with st.sidebar:
+        st.header("Single-stock research")
 
-st.title("📈 Quant Research Platform")
-st.caption(
-    "Evidence-grounded research, technical scoring, relative strength, "
-    "market regime and transparent price-planning ranges."
-)
+        with st.form("analysis_form"):
+            ticker_input = st.text_input(
+                "Ticker",
+                value=(
+                    st.session_state.active_ticker
+                    if st.session_state.active_ticker
+                    else "MU"
+                ),
+                max_chars=10,
+            ).strip().upper()
 
-with st.sidebar:
-    st.header("Research controls")
+            benchmark_input = st.selectbox(
+                "Benchmark",
+                options=["SPY", "QQQ"],
+                index=(
+                    1
+                    if st.session_state.active_benchmark == "QQQ"
+                    else 0
+                ),
+            )
 
-    with st.form("analysis_form"):
-        ticker_input = st.text_input(
-            "Ticker",
-            value=(
-                st.session_state.active_ticker
-                if st.session_state.active_ticker
-                else "MU"
-            ),
-            max_chars=10,
-        ).strip().upper()
+            analyze_submitted = st.form_submit_button(
+                "Analyze stock",
+                type="primary",
+                use_container_width=True,
+            )
 
-        benchmark_input = st.selectbox(
-            "Benchmark",
-            options=["SPY", "QQQ"],
-            index=(
-                1
-                if st.session_state.active_benchmark == "QQQ"
-                else 0
-            ),
-        )
-
-        analyze_submitted = st.form_submit_button(
-            "Analyze stock",
-            type="primary",
-            use_container_width=True,
-        )
-
-    st.divider()
-
-    st.caption(
-        f"Auto-report threshold: {AUTO_SCORE_THRESHOLD}\n\n"
-        f"Daily AI report cap: {MAX_AI_REPORTS_PER_DAY}\n\n"
-        "Real execution: disabled"
-    )
-
-if analyze_submitted:
-    if (
-        not ticker_input
-        or not ticker_input.replace(".", "").replace("-", "").isalnum()
-    ):
-        st.error("Enter a valid ticker symbol.")
-    else:
+    if analyze_submitted:
         try:
-            with st.spinner(f"Loading and analyzing {ticker_input}..."):
+            with st.spinner(
+                f"Loading and analyzing {ticker_input}..."
+            ):
                 bundle = run_analysis(
                     ticker=ticker_input,
                     benchmark=benchmark_input,
@@ -383,7 +589,9 @@ if analyze_submitted:
             st.session_state.analysis_ready = True
             st.session_state.active_ticker = ticker_input
             st.session_state.active_benchmark = benchmark_input
-            st.session_state.last_saved_analysis_id = bundle["analysis_id"]
+            st.session_state.last_saved_analysis_id = bundle[
+                "analysis_id"
+            ]
             st.session_state.latest_report = get_latest_ai_report(
                 database_engine,
                 ticker_input,
@@ -391,342 +599,216 @@ if analyze_submitted:
             st.session_state.report_message = None
 
         except Exception as exc:
-            st.session_state.analysis_ready = False
-            st.session_state.analysis_bundle = None
-            st.error(f"Unable to analyze {ticker_input}: {exc}")
+            st.error(
+                f"Unable to analyze {ticker_input}: {exc}"
+            )
 
-if not st.session_state.analysis_ready:
-    st.info("Enter a ticker in the sidebar and select **Analyze stock**.")
-    st.stop()
-
-bundle = st.session_state.analysis_bundle
-
-ticker = bundle["ticker"]
-benchmark = bundle["benchmark"]
-latest_price = bundle["latest_price"]
-bars = bundle["bars"]
-latest = bundle["latest"]
-daily_change_pct = bundle["daily_change_pct"]
-zones = bundle["zones"]
-price_plan = bundle["price_plan"]
-summary = bundle["summary"]
-stock_score = bundle["stock_score"]
-relative_summary = bundle["relative_summary"]
-relative_frame = bundle["relative_frame"]
-market_regime = bundle["market_regime"]
-
-st.subheader(f"{ticker} overview")
-
-c1, c2, c3, c4 = st.columns(4)
-
-c1.metric(
-    "Latest IEX price",
-    f"${latest_price:,.2f}",
-    f"{daily_change_pct:+.2f}%",
-)
-
-c2.metric(
-    "Technical score",
-    f"{stock_score.overall_score}/100",
-    stock_score.classification,
-)
-
-c3.metric(
-    f"Relative strength vs {benchmark}",
-    f"{relative_summary.score}/100",
-    relative_summary.ratio_trend,
-)
-
-c4.metric(
-    "Market regime",
-    market_regime.label,
-    f"{market_regime.score}/100",
-)
-
-st.subheader("Model-generated price plan")
-
-p1, p2, p3, p4 = st.columns(4)
-
-p1.metric(
-    "Setup",
-    price_plan.setup_status,
-    price_plan.setup_type,
-)
-
-p2.metric(
-    "Price-plan confidence",
-    f"{price_plan.confidence}/100",
-    "rules score, not probability",
-)
-
-p3.metric(
-    "Target 1 reward/risk",
-    (
-        f"{price_plan.risk_reward_1:.2f}:1"
-        if price_plan.risk_reward_1 is not None
-        else "Unavailable"
-    ),
-)
-
-p4.metric(
-    "Target 2 reward/risk",
-    (
-        f"{price_plan.risk_reward_2:.2f}:1"
-        if price_plan.risk_reward_2 is not None
-        else "Unavailable"
-    ),
-)
-
-left, right = st.columns(2)
-
-with left:
-    st.info(
-        "**Preferred pullback range**\n\n"
-        + format_range(
-            price_plan.entry_low,
-            price_plan.entry_high,
+    if not st.session_state.analysis_ready:
+        st.info(
+            "Enter a ticker in the sidebar and select **Analyze stock**."
         )
+        return
+
+    bundle = st.session_state.analysis_bundle
+
+    ticker = bundle["ticker"]
+    benchmark = bundle["benchmark"]
+    latest_price = bundle["latest_price"]
+    bars = bundle["bars"]
+    daily_change_pct = bundle["daily_change_pct"]
+    zones = bundle["zones"]
+    price_plan = bundle["price_plan"]
+    stock_score = bundle["stock_score"]
+    relative_summary = bundle["relative_summary"]
+    relative_frame = bundle["relative_frame"]
+    market_regime = bundle["market_regime"]
+
+    st.header(f"{ticker} research")
+
+    c1, c2, c3, c4 = st.columns(4)
+
+    c1.metric(
+        "Latest IEX price",
+        f"${latest_price:,.2f}",
+        f"{daily_change_pct:+.2f}%",
     )
 
-    st.info(
-        "**Support zone**\n\n"
-        + format_range(
-            price_plan.support_low,
-            price_plan.support_high,
-        )
+    c2.metric(
+        "Technical score",
+        f"{stock_score.overall_score}/100",
+        stock_score.classification,
     )
+
+    c3.metric(
+        f"Relative strength vs {benchmark}",
+        f"{relative_summary.score}/100",
+        relative_summary.ratio_trend,
+    )
+
+    c4.metric(
+        "Setup status",
+        price_plan.setup_status,
+        f"confidence {price_plan.confidence}/100",
+    )
+
+    st.subheader("Model-generated price plan")
+
+    left, right = st.columns(2)
+
+    with left:
+        st.info(
+            "**Preferred pullback range**\n\n"
+            + format_range(
+                price_plan.entry_low,
+                price_plan.entry_high,
+            )
+        )
+
+        st.warning(
+            "**Invalidation level**\n\n"
+            f"${price_plan.invalidation:,.2f}"
+        )
+
+    with right:
+        st.info(
+            "**Breakout confirmation range**\n\n"
+            + format_range(
+                price_plan.breakout_entry_low,
+                price_plan.breakout_entry_high,
+            )
+        )
+
+        st.info(
+            "**Profit zone 1**\n\n"
+            + format_range(
+                price_plan.target_1_low,
+                price_plan.target_1_high,
+            )
+        )
 
     st.warning(
-        "**Invalidation level**\n\n"
-        f"${price_plan.invalidation:,.2f}"
+        "These are model-generated research ranges, not guaranteed "
+        "buy or sell prices."
     )
 
-with right:
-    st.info(
-        "**Breakout confirmation range**\n\n"
-        + format_range(
-            price_plan.breakout_entry_low,
-            price_plan.breakout_entry_high,
-        )
-    )
-
-    st.info(
-        "**Profit zone 1**\n\n"
-        + format_range(
-            price_plan.target_1_low,
-            price_plan.target_1_high,
-        )
-    )
-
-    st.info(
-        "**Profit zone 2**\n\n"
-        + format_range(
-            price_plan.target_2_low,
-            price_plan.target_2_high,
-        )
-    )
-
-reason_col, warning_col = st.columns(2)
-
-with reason_col:
-    st.markdown("#### Why the setup may work")
-
-    if price_plan.reasons:
-        for reason in price_plan.reasons:
-            st.success(reason)
-    else:
-        st.info("No strong supporting conditions were detected.")
-
-with warning_col:
-    st.markdown("#### Why the setup may fail")
-
-    if price_plan.warnings:
-        for warning in price_plan.warnings:
-            st.warning(warning)
-    else:
-        st.info("No major model warnings were detected.")
-
-st.warning(
-    "These are model-generated research ranges, not guaranteed buy or sell "
-    "prices. A setup may be marked NO VALID SETUP or WAIT."
-)
-
-st.plotly_chart(
-    create_price_chart(ticker, bars, zones),
-    use_container_width=True,
-)
-
-st.plotly_chart(
-    create_relative_strength_chart(
-        ticker,
-        benchmark,
-        relative_frame,
-    ),
-    use_container_width=True,
-)
-
-chart_col_1, chart_col_2 = st.columns(2)
-
-with chart_col_1:
     st.plotly_chart(
-        create_volume_chart(ticker, bars),
+        create_price_chart(ticker, bars, zones),
         use_container_width=True,
     )
 
     st.plotly_chart(
-        create_rsi_chart(ticker, bars),
-        use_container_width=True,
-    )
-
-with chart_col_2:
-    st.plotly_chart(
-        create_macd_chart(ticker, bars),
-        use_container_width=True,
-    )
-
-st.subheader("AI research report")
-
-reports_today = count_ai_reports_today(database_engine)
-fresh_report = get_latest_ai_report(
-    database_engine,
-    ticker,
-    fresh_only=True,
-)
-
-if st.session_state.latest_report is None:
-    st.session_state.latest_report = (
-        fresh_report
-        or get_latest_ai_report(
-            database_engine,
+        create_relative_strength_chart(
             ticker,
-        )
+            benchmark,
+            relative_frame,
+        ),
+        use_container_width=True,
     )
 
-qualifies_automatically = (
-    stock_score.overall_score >= AUTO_SCORE_THRESHOLD
-    and relative_summary.score >= AUTO_RELATIVE_STRENGTH_THRESHOLD
-    and market_regime.label != "Bearish"
-    and price_plan.setup_status not in {"NO VALID SETUP", "INVALIDATED"}
-)
+    chart_1, chart_2 = st.columns(2)
 
-automatic_generation_needed = (
-    qualifies_automatically
-    and fresh_report is None
-    and reports_today < MAX_AI_REPORTS_PER_DAY
-)
+    with chart_1:
+        st.plotly_chart(
+            create_volume_chart(ticker, bars),
+            use_container_width=True,
+        )
+        st.plotly_chart(
+            create_rsi_chart(ticker, bars),
+            use_container_width=True,
+        )
 
-manual_col, usage_col = st.columns([2, 1])
+    with chart_2:
+        st.plotly_chart(
+            create_macd_chart(ticker, bars),
+            use_container_width=True,
+        )
 
-with manual_col:
-    generate_report_clicked = st.button(
+    st.subheader("AI research report")
+
+    reports_today = count_ai_reports_today(database_engine)
+
+    generate_clicked = st.button(
         "Generate new AI research report",
         type="primary",
         disabled=reports_today >= MAX_AI_REPORTS_PER_DAY,
-        key=f"generate_report_{ticker}_{benchmark}",
+        key=f"report_{ticker}_{benchmark}",
     )
 
-with usage_col:
-    st.metric(
-        "AI reports generated today",
-        f"{reports_today}/{MAX_AI_REPORTS_PER_DAY}",
-    )
+    if generate_clicked:
+        try:
+            with st.spinner(
+                "Collecting evidence and generating the report..."
+            ):
+                generated = generate_research_report(
+                    ticker=ticker,
+                    company_context=bundle["company_context"],
+                    technical_context=bundle["technical_context"],
+                )
 
-trigger_type = None
+                report_id = save_ai_report(
+                    database_engine,
+                    ticker=ticker,
+                    trigger_type="manual",
+                    technical_score=stock_score.overall_score,
+                    relative_strength_score=relative_summary.score,
+                    market_regime=market_regime.label,
+                    model=generated.model,
+                    report_markdown=generated.report_markdown,
+                    sources=generated.sources,
+                    search_queries=generated.search_queries,
+                    cache_hours=REPORT_CACHE_HOURS,
+                )
 
-if generate_report_clicked:
-    trigger_type = "manual"
-elif automatic_generation_needed:
-    trigger_type = "automatic_threshold"
+                st.session_state.latest_report = (
+                    get_latest_ai_report(
+                        database_engine,
+                        ticker,
+                    )
+                )
 
-if trigger_type:
-    try:
-        with st.spinner(
-            "Collecting SEC evidence, company facts, news metadata, "
-            "macro context and generating the report..."
-        ):
-            generated = generate_research_report(
-                ticker=ticker,
-                company_context=bundle["company_context"],
-                technical_context=bundle["technical_context"],
-            )
+                st.success(
+                    f"AI report saved as record #{report_id}."
+                )
 
-            report_id = save_ai_report(
-                database_engine,
-                ticker=ticker,
-                trigger_type=trigger_type,
-                technical_score=stock_score.overall_score,
-                relative_strength_score=relative_summary.score,
-                market_regime=market_regime.label,
-                model=generated.model,
-                report_markdown=generated.report_markdown,
-                sources=generated.sources,
-                search_queries=generated.search_queries,
-                cache_hours=REPORT_CACHE_HOURS,
-            )
-
-            st.session_state.latest_report = get_latest_ai_report(
-                database_engine,
-                ticker,
-            )
-
-            st.session_state.report_message = (
-                f"AI research report saved as record #{report_id}."
-            )
-
-    except Exception as exc:
-        message = str(exc)
-
-        if "429" in message or "RESOURCE_EXHAUSTED" in message:
+        except Exception as exc:
             st.error(
-                "A data source or Gemini quota is temporarily unavailable. "
-                "Try again later."
+                f"Unable to generate AI report: {exc}"
             )
-        else:
-            st.error(f"Unable to generate AI report: {message}")
 
-if st.session_state.report_message:
-    st.success(st.session_state.report_message)
+    if st.session_state.latest_report:
+        display_ai_report(
+            st.session_state.latest_report
+        )
 
-if st.session_state.latest_report:
-    display_ai_report(st.session_state.latest_report)
-else:
-    st.info(
-        "No AI research report exists for this ticker yet. "
-        "Use the manual button or wait for a qualifying automatic trigger."
+    history = get_recent_analyses(
+        database_engine,
+        ticker=ticker,
+        limit=20,
     )
 
-st.subheader("Saved technical-analysis history")
+    if history:
+        st.subheader("Saved analysis history")
+        st.dataframe(
+            pd.DataFrame(history),
+            use_container_width=True,
+            hide_index=True,
+        )
 
-history = get_recent_analyses(
-    database_engine,
-    ticker=ticker,
-    limit=20,
+
+initialize_session_state()
+database_engine = get_db_engine()
+
+st.title("📈 Quant Research Platform")
+
+page = st.sidebar.radio(
+    "Page",
+    options=[
+        "Watchlist Scanner",
+        "Single-Stock Research",
+    ],
 )
 
-if history:
-    history_df = pd.DataFrame(history)
-
-    columns = [
-        "analyzed_at",
-        "latest_price",
-        "daily_change_pct",
-        "technical_score",
-        "confidence",
-        "trend",
-        "setup_status",
-        "rsi_14",
-        "atr_14",
-        "relative_volume",
-        "model_version",
-    ]
-
-    st.dataframe(
-        history_df[columns],
-        use_container_width=True,
-        hide_index=True,
-    )
-
-    st.caption(
-        "Latest technical analysis saved as record "
-        f"#{st.session_state.last_saved_analysis_id}."
-    )
+if page == "Watchlist Scanner":
+    render_watchlist_page(database_engine)
+else:
+    render_single_stock_page(database_engine)

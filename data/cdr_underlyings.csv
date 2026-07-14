@@ -1,0 +1,26 @@
+underlying_ticker,cdr_symbol,exchange_suffix,company_name,hedged,official_directory_url
+AAPL,AAPL,.TO,Apple,true,https://cdr.cibc.com/
+AMZN,AMZN,.TO,Amazon,true,https://cdr.cibc.com/
+AMD,AMD,.TO,Advanced Micro Devices,true,https://cdr.cibc.com/
+BAC,BAC,.TO,Bank of America,true,https://cdr.cibc.com/
+BRK.B,BRK,.TO,Berkshire Hathaway,true,https://cdr.cibc.com/
+COST,COST,.TO,Costco,true,https://cdr.cibc.com/
+DIS,DIS,.TO,Walt Disney,true,https://cdr.cibc.com/
+GOOG,GOOG,.TO,Alphabet,true,https://cdr.cibc.com/
+META,META,.TO,Meta Platforms,true,https://cdr.cibc.com/
+GS,GS,.TO,Goldman Sachs,true,https://cdr.cibc.com/
+HD,HD,.TO,Home Depot,true,https://cdr.cibc.com/
+IBM,IBM,.TO,IBM,true,https://cdr.cibc.com/
+JNJ,JNJ,.TO,Johnson & Johnson,true,https://cdr.cibc.com/
+JPM,JPM,.TO,JPMorgan Chase,true,https://cdr.cibc.com/
+MA,MA,.TO,Mastercard,true,https://cdr.cibc.com/
+MSFT,MSFT,.TO,Microsoft,true,https://cdr.cibc.com/
+NVDA,NVDA,.TO,Nvidia,true,https://cdr.cibc.com/
+PYPL,PYPL,.TO,PayPal,true,https://cdr.cibc.com/
+PFE,PFE,.TO,Pfizer,true,https://cdr.cibc.com/
+CRM,CRM,.TO,Salesforce,true,https://cdr.cibc.com/
+TSLA,TSLA,.TO,Tesla,true,https://cdr.cibc.com/
+V,V,.TO,Visa,true,https://cdr.cibc.com/
+WMT,WMT,.TO,Walmart,true,https://cdr.cibc.com/
+NFLX,NFLX,.TO,Netflix,true,https://cdr.cibc.com/
+AVGO,AVGO,.TO,Broadcom,true,https://cdr.cibc.com/

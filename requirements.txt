@@ -8,3 +8,8 @@ google-genai
 requests
 pydantic>=2
 python-dotenv
+lxml
+html5lib
+beautifulsoup4
+yfinance
+requests

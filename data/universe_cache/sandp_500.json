@@ -1,0 +1,5032 @@
+[
+  {
+    "ticker": "A",
+    "company_name": "Agilent Technologies",
+    "sector": "Health Care",
+    "sub_industry": "Life Sciences Tools & Services",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "AAPL",
+    "company_name": "Apple Inc.",
+    "sector": "Information Technology",
+    "sub_industry": "Technology Hardware, Storage & Peripherals",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "ABBV",
+    "company_name": "AbbVie",
+    "sector": "Health Care",
+    "sub_industry": "Biotechnology",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "ABNB",
+    "company_name": "Airbnb",
+    "sector": "Consumer Discretionary",
+    "sub_industry": "Hotels, Resorts & Cruise Lines",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "ABT",
+    "company_name": "Abbott Laboratories",
+    "sector": "Health Care",
+    "sub_industry": "Health Care Equipment",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "ACGL",
+    "company_name": "Arch Capital Group",
+    "sector": "Financials",
+    "sub_industry": "Property & Casualty Insurance",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "ACN",
+    "company_name": "Accenture",
+    "sector": "Information Technology",
+    "sub_industry": "IT Consulting & Other Services",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "ADBE",
+    "company_name": "Adobe Inc.",
+    "sector": "Information Technology",
+    "sub_industry": "Application Software",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "ADI",
+    "company_name": "Analog Devices",
+    "sector": "Information Technology",
+    "sub_industry": "Semiconductors",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "ADM",
+    "company_name": "Archer Daniels Midland",
+    "sector": "Consumer Staples",
+    "sub_industry": "Agricultural Products & Services",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "ADP",
+    "company_name": "Automatic Data Processing",
+    "sector": "Industrials",
+    "sub_industry": "Human Resource & Employment Services",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "ADSK",
+    "company_name": "Autodesk",
+    "sector": "Information Technology",
+    "sub_industry": "Application Software",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "AEE",
+    "company_name": "Ameren",
+    "sector": "Utilities",
+    "sub_industry": "Multi-Utilities",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "AEP",
+    "company_name": "American Electric Power",
+    "sector": "Utilities",
+    "sub_industry": "Electric Utilities",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "AES",
+    "company_name": "AES Corporation",
+    "sector": "Utilities",
+    "sub_industry": "Independent Power Producers & Energy Traders",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "AFL",
+    "company_name": "Aflac",
+    "sector": "Financials",
+    "sub_industry": "Life & Health Insurance",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "AIG",
+    "company_name": "American International Group",
+    "sector": "Financials",
+    "sub_industry": "Multi-line Insurance",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "AIZ",
+    "company_name": "Assurant",
+    "sector": "Financials",
+    "sub_industry": "Multi-line Insurance",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "AJG",
+    "company_name": "Arthur J. Gallagher & Co.",
+    "sector": "Financials",
+    "sub_industry": "Insurance Brokers",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "AKAM",
+    "company_name": "Akamai Technologies",
+    "sector": "Information Technology",
+    "sub_industry": "Internet Services & Infrastructure",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "ALB",
+    "company_name": "Albemarle Corporation",
+    "sector": "Materials",
+    "sub_industry": "Specialty Chemicals",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "ALGN",
+    "company_name": "Align Technology",
+    "sector": "Health Care",
+    "sub_industry": "Health Care Supplies",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "ALL",
+    "company_name": "Allstate",
+    "sector": "Financials",
+    "sub_industry": "Property & Casualty Insurance",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "ALLE",
+    "company_name": "Allegion",
+    "sector": "Industrials",
+    "sub_industry": "Building Products",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "AMAT",
+    "company_name": "Applied Materials",
+    "sector": "Information Technology",
+    "sub_industry": "Semiconductor Materials & Equipment",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "AMCR",
+    "company_name": "Amcor",
+    "sector": "Materials",
+    "sub_industry": "Paper & Plastic Packaging Products & Materials",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "AMD",
+    "company_name": "Advanced Micro Devices",
+    "sector": "Information Technology",
+    "sub_industry": "Semiconductors",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "AME",
+    "company_name": "Ametek",
+    "sector": "Industrials",
+    "sub_industry": "Electrical Components & Equipment",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "AMGN",
+    "company_name": "Amgen",
+    "sector": "Health Care",
+    "sub_industry": "Biotechnology",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "AMP",
+    "company_name": "Ameriprise Financial",
+    "sector": "Financials",
+    "sub_industry": "Asset Management & Custody Banks",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "AMT",
+    "company_name": "American Tower",
+    "sector": "Real Estate",
+    "sub_industry": "Telecom Tower REITs",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "AMZN",
+    "company_name": "Amazon",
+    "sector": "Consumer Discretionary",
+    "sub_industry": "Broadline Retail",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "ANET",
+    "company_name": "Arista Networks",
+    "sector": "Information Technology",
+    "sub_industry": "Communications Equipment",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "AON",
+    "company_name": "Aon plc",
+    "sector": "Financials",
+    "sub_industry": "Insurance Brokers",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "AOS",
+    "company_name": "A. O. Smith",
+    "sector": "Industrials",
+    "sub_industry": "Building Products",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "APA",
+    "company_name": "APA Corporation",
+    "sector": "Energy",
+    "sub_industry": "Oil & Gas Exploration & Production",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "APD",
+    "company_name": "Air Products",
+    "sector": "Materials",
+    "sub_industry": "Industrial Gases",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "APH",
+    "company_name": "Amphenol",
+    "sector": "Information Technology",
+    "sub_industry": "Electronic Components",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "APO",
+    "company_name": "Apollo Global Management",
+    "sector": "Financials",
+    "sub_industry": "Asset Management & Custody Banks",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "APP",
+    "company_name": "AppLovin",
+    "sector": "Information Technology",
+    "sub_industry": "Application Software",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "APTV",
+    "company_name": "Aptiv",
+    "sector": "Consumer Discretionary",
+    "sub_industry": "Automotive Parts & Equipment",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "ARE",
+    "company_name": "Alexandria Real Estate Equities",
+    "sector": "Real Estate",
+    "sub_industry": "Office REITs",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "ARES",
+    "company_name": "Ares Management",
+    "sector": "Financials",
+    "sub_industry": "Asset Management & Custody Banks",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "ATO",
+    "company_name": "Atmos Energy",
+    "sector": "Utilities",
+    "sub_industry": "Gas Utilities",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "AVB",
+    "company_name": "AvalonBay Communities",
+    "sector": "Real Estate",
+    "sub_industry": "Multi-Family Residential REITs",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "AVGO",
+    "company_name": "Broadcom",
+    "sector": "Information Technology",
+    "sub_industry": "Semiconductors",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "AVY",
+    "company_name": "Avery Dennison",
+    "sector": "Materials",
+    "sub_industry": "Paper & Plastic Packaging Products & Materials",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "AWK",
+    "company_name": "American Water Works",
+    "sector": "Utilities",
+    "sub_industry": "Water Utilities",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "AXON",
+    "company_name": "Axon Enterprise",
+    "sector": "Industrials",
+    "sub_industry": "Aerospace & Defense",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "AXP",
+    "company_name": "American Express",
+    "sector": "Financials",
+    "sub_industry": "Consumer Finance",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "AZO",
+    "company_name": "AutoZone",
+    "sector": "Consumer Discretionary",
+    "sub_industry": "Automotive Retail",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "BA",
+    "company_name": "Boeing",
+    "sector": "Industrials",
+    "sub_industry": "Aerospace & Defense",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "BAC",
+    "company_name": "Bank of America",
+    "sector": "Financials",
+    "sub_industry": "Diversified Banks",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "BALL",
+    "company_name": "Ball Corporation",
+    "sector": "Materials",
+    "sub_industry": "Metal, Glass & Plastic Containers",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "BAX",
+    "company_name": "Baxter International",
+    "sector": "Health Care",
+    "sub_industry": "Health Care Equipment",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "BBY",
+    "company_name": "Best Buy",
+    "sector": "Consumer Discretionary",
+    "sub_industry": "Computer & Electronics Retail",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "BDX",
+    "company_name": "Becton Dickinson",
+    "sector": "Health Care",
+    "sub_industry": "Health Care Equipment",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "BEN",
+    "company_name": "Franklin Resources",
+    "sector": "Financials",
+    "sub_industry": "Asset Management & Custody Banks",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "BF-B",
+    "company_name": "Brown\u2013Forman",
+    "sector": "Consumer Staples",
+    "sub_industry": "Distillers & Vintners",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "BG",
+    "company_name": "Bunge Global",
+    "sector": "Consumer Staples",
+    "sub_industry": "Agricultural Products & Services",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "BIIB",
+    "company_name": "Biogen",
+    "sector": "Health Care",
+    "sub_industry": "Biotechnology",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "BKNG",
+    "company_name": "Booking Holdings",
+    "sector": "Consumer Discretionary",
+    "sub_industry": "Hotels, Resorts & Cruise Lines",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "BKR",
+    "company_name": "Baker Hughes",
+    "sector": "Energy",
+    "sub_industry": "Oil & Gas Equipment & Services",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "BLDR",
+    "company_name": "Builders FirstSource",
+    "sector": "Industrials",
+    "sub_industry": "Building Products",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "BLK",
+    "company_name": "BlackRock",
+    "sector": "Financials",
+    "sub_industry": "Asset Management & Custody Banks",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "BMY",
+    "company_name": "Bristol Myers Squibb",
+    "sector": "Health Care",
+    "sub_industry": "Pharmaceuticals",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "BNY",
+    "company_name": "BNY Mellon",
+    "sector": "Financials",
+    "sub_industry": "Asset Management & Custody Banks",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "BR",
+    "company_name": "Broadridge Financial Solutions",
+    "sector": "Industrials",
+    "sub_industry": "Data Processing & Outsourced Services",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "BRK-B",
+    "company_name": "Berkshire Hathaway",
+    "sector": "Financials",
+    "sub_industry": "Multi-Sector Holdings",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "BRO",
+    "company_name": "Brown & Brown",
+    "sector": "Financials",
+    "sub_industry": "Insurance Brokers",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "BSX",
+    "company_name": "Boston Scientific",
+    "sector": "Health Care",
+    "sub_industry": "Health Care Equipment",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "BX",
+    "company_name": "Blackstone Inc.",
+    "sector": "Financials",
+    "sub_industry": "Asset Management & Custody Banks",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "BXP",
+    "company_name": "BXP, Inc.",
+    "sector": "Real Estate",
+    "sub_industry": "Office REITs",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "C",
+    "company_name": "Citigroup",
+    "sector": "Financials",
+    "sub_industry": "Diversified Banks",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "CAH",
+    "company_name": "Cardinal Health",
+    "sector": "Health Care",
+    "sub_industry": "Health Care Distributors",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "CARR",
+    "company_name": "Carrier Global",
+    "sector": "Industrials",
+    "sub_industry": "Building Products",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "CASY",
+    "company_name": "Casey's",
+    "sector": "Consumer Staples",
+    "sub_industry": "Food Retail",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "CAT",
+    "company_name": "Caterpillar Inc.",
+    "sector": "Industrials",
+    "sub_industry": "Construction Machinery & Heavy Transportation Equipment",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "CB",
+    "company_name": "Chubb Limited",
+    "sector": "Financials",
+    "sub_industry": "Property & Casualty Insurance",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "CBOE",
+    "company_name": "Cboe Global Markets",
+    "sector": "Financials",
+    "sub_industry": "Financial Exchanges & Data",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "CBRE",
+    "company_name": "CBRE Group",
+    "sector": "Real Estate",
+    "sub_industry": "Real Estate Services",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "CCI",
+    "company_name": "Crown Castle",
+    "sector": "Real Estate",
+    "sub_industry": "Telecom Tower REITs",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "CCL",
+    "company_name": "Carnival Corporation",
+    "sector": "Consumer Discretionary",
+    "sub_industry": "Hotels, Resorts & Cruise Lines",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "CDNS",
+    "company_name": "Cadence Design Systems",
+    "sector": "Information Technology",
+    "sub_industry": "Application Software",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "CDW",
+    "company_name": "CDW Corporation",
+    "sector": "Information Technology",
+    "sub_industry": "Technology Distributors",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "CEG",
+    "company_name": "Constellation Energy",
+    "sector": "Utilities",
+    "sub_industry": "Electric Utilities",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "CF",
+    "company_name": "CF Industries",
+    "sector": "Materials",
+    "sub_industry": "Fertilizers & Agricultural Chemicals",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "CFG",
+    "company_name": "Citizens Financial Group",
+    "sector": "Financials",
+    "sub_industry": "Regional Banks",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "CHD",
+    "company_name": "Church & Dwight",
+    "sector": "Consumer Staples",
+    "sub_industry": "Household Products",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "CHRW",
+    "company_name": "C.H. Robinson",
+    "sector": "Industrials",
+    "sub_industry": "Air Freight & Logistics",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "CHTR",
+    "company_name": "Charter Communications",
+    "sector": "Communication Services",
+    "sub_industry": "Cable & Satellite",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "CI",
+    "company_name": "Cigna",
+    "sector": "Health Care",
+    "sub_industry": "Health Care Services",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "CIEN",
+    "company_name": "Ciena",
+    "sector": "Information Technology",
+    "sub_industry": "Communications Equipment",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "CINF",
+    "company_name": "Cincinnati Financial",
+    "sector": "Financials",
+    "sub_industry": "Property & Casualty Insurance",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "CL",
+    "company_name": "Colgate-Palmolive",
+    "sector": "Consumer Staples",
+    "sub_industry": "Household Products",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "CLX",
+    "company_name": "Clorox",
+    "sector": "Consumer Staples",
+    "sub_industry": "Household Products",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "CMCSA",
+    "company_name": "Comcast",
+    "sector": "Communication Services",
+    "sub_industry": "Cable & Satellite",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "CME",
+    "company_name": "CME Group",
+    "sector": "Financials",
+    "sub_industry": "Financial Exchanges & Data",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "CMG",
+    "company_name": "Chipotle Mexican Grill",
+    "sector": "Consumer Discretionary",
+    "sub_industry": "Restaurants",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "CMI",
+    "company_name": "Cummins",
+    "sector": "Industrials",
+    "sub_industry": "Construction Machinery & Heavy Transportation Equipment",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "CMS",
+    "company_name": "CMS Energy",
+    "sector": "Utilities",
+    "sub_industry": "Multi-Utilities",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "CNC",
+    "company_name": "Centene Corporation",
+    "sector": "Health Care",
+    "sub_industry": "Managed Health Care",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "CNP",
+    "company_name": "CenterPoint Energy",
+    "sector": "Utilities",
+    "sub_industry": "Multi-Utilities",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "COF",
+    "company_name": "Capital One",
+    "sector": "Financials",
+    "sub_industry": "Consumer Finance",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "COHR",
+    "company_name": "Coherent Corp.",
+    "sector": "Information Technology",
+    "sub_industry": "Electronic Components",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "COIN",
+    "company_name": "Coinbase",
+    "sector": "Financials",
+    "sub_industry": "Financial Exchanges & Data",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "COO",
+    "company_name": "Cooper Companies (The)",
+    "sector": "Health Care",
+    "sub_industry": "Health Care Supplies",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "COP",
+    "company_name": "ConocoPhillips",
+    "sector": "Energy",
+    "sub_industry": "Oil & Gas Exploration & Production",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "COR",
+    "company_name": "Cencora",
+    "sector": "Health Care",
+    "sub_industry": "Health Care Distributors",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "COST",
+    "company_name": "Costco",
+    "sector": "Consumer Staples",
+    "sub_industry": "Consumer Staples Merchandise Retail",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "CPAY",
+    "company_name": "Corpay",
+    "sector": "Financials",
+    "sub_industry": "Transaction & Payment Processing Services",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "CPRT",
+    "company_name": "Copart",
+    "sector": "Industrials",
+    "sub_industry": "Diversified Support Services",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "CPT",
+    "company_name": "Camden Property Trust",
+    "sector": "Real Estate",
+    "sub_industry": "Multi-Family Residential REITs",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "CRH",
+    "company_name": "CRH plc",
+    "sector": "Materials",
+    "sub_industry": "Construction Materials",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "CRL",
+    "company_name": "Charles River Laboratories",
+    "sector": "Health Care",
+    "sub_industry": "Life Sciences Tools & Services",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "CRM",
+    "company_name": "Salesforce",
+    "sector": "Information Technology",
+    "sub_industry": "Application Software",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "CRWD",
+    "company_name": "CrowdStrike",
+    "sector": "Information Technology",
+    "sub_industry": "Systems Software",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "CSCO",
+    "company_name": "Cisco",
+    "sector": "Information Technology",
+    "sub_industry": "Communications Equipment",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "CSGP",
+    "company_name": "CoStar Group",
+    "sector": "Real Estate",
+    "sub_industry": "Real Estate Services",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "CSX",
+    "company_name": "CSX Corporation",
+    "sector": "Industrials",
+    "sub_industry": "Rail Transportation",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "CTAS",
+    "company_name": "Cintas",
+    "sector": "Industrials",
+    "sub_industry": "Diversified Support Services",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "CTSH",
+    "company_name": "Cognizant",
+    "sector": "Information Technology",
+    "sub_industry": "IT Consulting & Other Services",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "CTVA",
+    "company_name": "Corteva",
+    "sector": "Materials",
+    "sub_industry": "Fertilizers & Agricultural Chemicals",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "CVNA",
+    "company_name": "Carvana",
+    "sector": "Consumer Discretionary",
+    "sub_industry": "Automotive Retail",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "CVS",
+    "company_name": "CVS Health",
+    "sector": "Health Care",
+    "sub_industry": "Health Care Services",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "CVX",
+    "company_name": "Chevron Corporation",
+    "sector": "Energy",
+    "sub_industry": "Integrated Oil & Gas",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "D",
+    "company_name": "Dominion Energy",
+    "sector": "Utilities",
+    "sub_industry": "Multi-Utilities",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "DAL",
+    "company_name": "Delta Air Lines",
+    "sector": "Industrials",
+    "sub_industry": "Passenger Airlines",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "DASH",
+    "company_name": "DoorDash",
+    "sector": "Consumer Discretionary",
+    "sub_industry": "Specialized Consumer Services",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "DD",
+    "company_name": "DuPont",
+    "sector": "Materials",
+    "sub_industry": "Specialty Chemicals",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "DDOG",
+    "company_name": "Datadog",
+    "sector": "Information Technology",
+    "sub_industry": "Application Software",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "DE",
+    "company_name": "Deere & Company",
+    "sector": "Industrials",
+    "sub_industry": "Agricultural & Farm Machinery",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "DECK",
+    "company_name": "Deckers Brands",
+    "sector": "Consumer Discretionary",
+    "sub_industry": "Footwear",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "DELL",
+    "company_name": "Dell Technologies",
+    "sector": "Information Technology",
+    "sub_industry": "Technology Hardware, Storage & Peripherals",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "DG",
+    "company_name": "Dollar General",
+    "sector": "Consumer Staples",
+    "sub_industry": "Consumer Staples Merchandise Retail",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "DGX",
+    "company_name": "Quest Diagnostics",
+    "sector": "Health Care",
+    "sub_industry": "Health Care Services",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "DHI",
+    "company_name": "D. R. Horton",
+    "sector": "Consumer Discretionary",
+    "sub_industry": "Homebuilding",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "DHR",
+    "company_name": "Danaher Corporation",
+    "sector": "Health Care",
+    "sub_industry": "Life Sciences Tools & Services",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "DIS",
+    "company_name": "Walt Disney Company (The)",
+    "sector": "Communication Services",
+    "sub_industry": "Movies & Entertainment",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "DLR",
+    "company_name": "Digital Realty",
+    "sector": "Real Estate",
+    "sub_industry": "Data Center REITs",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "DLTR",
+    "company_name": "Dollar Tree",
+    "sector": "Consumer Staples",
+    "sub_industry": "Consumer Staples Merchandise Retail",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "DOC",
+    "company_name": "Healthpeak Properties",
+    "sector": "Real Estate",
+    "sub_industry": "Health Care REITs",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "DOV",
+    "company_name": "Dover Corporation",
+    "sector": "Industrials",
+    "sub_industry": "Industrial Machinery & Supplies & Components",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "DOW",
+    "company_name": "Dow Inc.",
+    "sector": "Materials",
+    "sub_industry": "Commodity Chemicals",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "DPZ",
+    "company_name": "Domino's",
+    "sector": "Consumer Discretionary",
+    "sub_industry": "Restaurants",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "DRI",
+    "company_name": "Darden Restaurants",
+    "sector": "Consumer Discretionary",
+    "sub_industry": "Restaurants",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "DTE",
+    "company_name": "DTE Energy",
+    "sector": "Utilities",
+    "sub_industry": "Multi-Utilities",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "DUK",
+    "company_name": "Duke Energy",
+    "sector": "Utilities",
+    "sub_industry": "Electric Utilities",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "DVA",
+    "company_name": "DaVita",
+    "sector": "Health Care",
+    "sub_industry": "Health Care Services",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "DVN",
+    "company_name": "Devon Energy",
+    "sector": "Energy",
+    "sub_industry": "Oil & Gas Exploration & Production",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "DXCM",
+    "company_name": "Dexcom",
+    "sector": "Health Care",
+    "sub_industry": "Health Care Equipment",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "EA",
+    "company_name": "Electronic Arts",
+    "sector": "Communication Services",
+    "sub_industry": "Interactive Home Entertainment",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "EBAY",
+    "company_name": "eBay Inc.",
+    "sector": "Consumer Discretionary",
+    "sub_industry": "Broadline Retail",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "ECHO",
+    "company_name": "EchoStar",
+    "sector": "Communication Services",
+    "sub_industry": "Wireless Telecommunication Services",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "ECL",
+    "company_name": "Ecolab",
+    "sector": "Materials",
+    "sub_industry": "Specialty Chemicals",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "ED",
+    "company_name": "Consolidated Edison",
+    "sector": "Utilities",
+    "sub_industry": "Multi-Utilities",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "EFX",
+    "company_name": "Equifax",
+    "sector": "Industrials",
+    "sub_industry": "Research & Consulting Services",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "EG",
+    "company_name": "Everest Group",
+    "sector": "Financials",
+    "sub_industry": "Reinsurance",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "EIX",
+    "company_name": "Edison International",
+    "sector": "Utilities",
+    "sub_industry": "Electric Utilities",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "EL",
+    "company_name": "Est\u00e9e Lauder Companies (The)",
+    "sector": "Consumer Staples",
+    "sub_industry": "Personal Care Products",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "ELV",
+    "company_name": "Elevance Health",
+    "sector": "Health Care",
+    "sub_industry": "Managed Health Care",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "EME",
+    "company_name": "Emcor",
+    "sector": "Industrials",
+    "sub_industry": "Construction & Engineering",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "EMR",
+    "company_name": "Emerson Electric",
+    "sector": "Industrials",
+    "sub_industry": "Electrical Components & Equipment",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "EOG",
+    "company_name": "EOG Resources",
+    "sector": "Energy",
+    "sub_industry": "Oil & Gas Exploration & Production",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "EQIX",
+    "company_name": "Equinix",
+    "sector": "Real Estate",
+    "sub_industry": "Data Center REITs",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "EQR",
+    "company_name": "Equity Residential",
+    "sector": "Real Estate",
+    "sub_industry": "Multi-Family Residential REITs",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "EQT",
+    "company_name": "EQT Corporation",
+    "sector": "Energy",
+    "sub_industry": "Oil & Gas Exploration & Production",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "ERIE",
+    "company_name": "Erie Indemnity",
+    "sector": "Financials",
+    "sub_industry": "Insurance Brokers",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "ES",
+    "company_name": "Eversource Energy",
+    "sector": "Utilities",
+    "sub_industry": "Electric Utilities",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "ESS",
+    "company_name": "Essex Property Trust",
+    "sector": "Real Estate",
+    "sub_industry": "Multi-Family Residential REITs",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "ETN",
+    "company_name": "Eaton Corporation",
+    "sector": "Industrials",
+    "sub_industry": "Electrical Components & Equipment",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "ETR",
+    "company_name": "Entergy",
+    "sector": "Utilities",
+    "sub_industry": "Electric Utilities",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "EVRG",
+    "company_name": "Evergy",
+    "sector": "Utilities",
+    "sub_industry": "Electric Utilities",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "EW",
+    "company_name": "Edwards Lifesciences",
+    "sector": "Health Care",
+    "sub_industry": "Health Care Equipment",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "EXC",
+    "company_name": "Exelon",
+    "sector": "Utilities",
+    "sub_industry": "Electric Utilities",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "EXE",
+    "company_name": "Expand Energy",
+    "sector": "Energy",
+    "sub_industry": "Oil & Gas Exploration & Production",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "EXPD",
+    "company_name": "Expeditors International",
+    "sector": "Industrials",
+    "sub_industry": "Air Freight & Logistics",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "EXPE",
+    "company_name": "Expedia Group",
+    "sector": "Consumer Discretionary",
+    "sub_industry": "Hotels, Resorts & Cruise Lines",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "EXR",
+    "company_name": "Extra Space Storage",
+    "sector": "Real Estate",
+    "sub_industry": "Self-Storage REITs",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "F",
+    "company_name": "Ford Motor Company",
+    "sector": "Consumer Discretionary",
+    "sub_industry": "Automobile Manufacturers",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "FANG",
+    "company_name": "Diamondback Energy",
+    "sector": "Energy",
+    "sub_industry": "Oil & Gas Exploration & Production",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "FAST",
+    "company_name": "Fastenal",
+    "sector": "Industrials",
+    "sub_industry": "Trading Companies & Distributors",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "FCX",
+    "company_name": "Freeport-McMoRan",
+    "sector": "Materials",
+    "sub_industry": "Copper",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "FDS",
+    "company_name": "FactSet",
+    "sector": "Financials",
+    "sub_industry": "Financial Exchanges & Data",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "FDX",
+    "company_name": "FedEx",
+    "sector": "Industrials",
+    "sub_industry": "Air Freight & Logistics",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "FDXF",
+    "company_name": "FedEx Freight",
+    "sector": "Industrials",
+    "sub_industry": "Cargo Ground Transportation",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "FE",
+    "company_name": "FirstEnergy",
+    "sector": "Utilities",
+    "sub_industry": "Electric Utilities",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "FFIV",
+    "company_name": "F5, Inc.",
+    "sector": "Information Technology",
+    "sub_industry": "Communications Equipment",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "FICO",
+    "company_name": "Fair Isaac",
+    "sector": "Information Technology",
+    "sub_industry": "Application Software",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "FIS",
+    "company_name": "Fidelity National Information Services",
+    "sector": "Financials",
+    "sub_industry": "Transaction & Payment Processing Services",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "FISV",
+    "company_name": "Fiserv",
+    "sector": "Financials",
+    "sub_industry": "Transaction & Payment Processing Services",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "FITB",
+    "company_name": "Fifth Third Bancorp",
+    "sector": "Financials",
+    "sub_industry": "Regional Banks",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "FIX",
+    "company_name": "Comfort Systems USA",
+    "sector": "Industrials",
+    "sub_industry": "Construction & Engineering",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "FLEX",
+    "company_name": "Flex Ltd.",
+    "sector": "Information Technology",
+    "sub_industry": "Electronic Manufacturing Services",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "FOX",
+    "company_name": "Fox Corporation (Class B)",
+    "sector": "Communication Services",
+    "sub_industry": "Broadcasting",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "FOXA",
+    "company_name": "Fox Corporation (Class A)",
+    "sector": "Communication Services",
+    "sub_industry": "Broadcasting",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "FRT",
+    "company_name": "Federal Realty Investment Trust",
+    "sector": "Real Estate",
+    "sub_industry": "Retail REITs",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "FSLR",
+    "company_name": "First Solar",
+    "sector": "Information Technology",
+    "sub_industry": "Semiconductors",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "FTNT",
+    "company_name": "Fortinet",
+    "sector": "Information Technology",
+    "sub_industry": "Systems Software",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "FTV",
+    "company_name": "Fortive",
+    "sector": "Industrials",
+    "sub_industry": "Industrial Machinery & Supplies & Components",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "GD",
+    "company_name": "General Dynamics",
+    "sector": "Industrials",
+    "sub_industry": "Aerospace & Defense",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "GDDY",
+    "company_name": "GoDaddy",
+    "sector": "Information Technology",
+    "sub_industry": "Internet Services & Infrastructure",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "GE",
+    "company_name": "GE Aerospace",
+    "sector": "Industrials",
+    "sub_industry": "Aerospace & Defense",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "GEHC",
+    "company_name": "GE HealthCare",
+    "sector": "Health Care",
+    "sub_industry": "Health Care Equipment",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "GEN",
+    "company_name": "Gen Digital",
+    "sector": "Information Technology",
+    "sub_industry": "Systems Software",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "GEV",
+    "company_name": "GE Vernova",
+    "sector": "Industrials",
+    "sub_industry": "Heavy Electrical Equipment",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "GILD",
+    "company_name": "Gilead Sciences",
+    "sector": "Health Care",
+    "sub_industry": "Biotechnology",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "GIS",
+    "company_name": "General Mills",
+    "sector": "Consumer Staples",
+    "sub_industry": "Packaged Foods & Meats",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "GL",
+    "company_name": "Globe Life",
+    "sector": "Financials",
+    "sub_industry": "Life & Health Insurance",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "GLW",
+    "company_name": "Corning Inc.",
+    "sector": "Information Technology",
+    "sub_industry": "Electronic Components",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "GM",
+    "company_name": "General Motors",
+    "sector": "Consumer Discretionary",
+    "sub_industry": "Automobile Manufacturers",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "GNRC",
+    "company_name": "Generac",
+    "sector": "Industrials",
+    "sub_industry": "Heavy Electrical Equipment",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "GOOG",
+    "company_name": "Alphabet Inc. (Class C)",
+    "sector": "Communication Services",
+    "sub_industry": "Interactive Media & Services",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "GOOGL",
+    "company_name": "Alphabet Inc. (Class A)",
+    "sector": "Communication Services",
+    "sub_industry": "Interactive Media & Services",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "GPC",
+    "company_name": "Genuine Parts Company",
+    "sector": "Consumer Discretionary",
+    "sub_industry": "Distributors",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "GPN",
+    "company_name": "Global Payments",
+    "sector": "Financials",
+    "sub_industry": "Transaction & Payment Processing Services",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "GRMN",
+    "company_name": "Garmin",
+    "sector": "Consumer Discretionary",
+    "sub_industry": "Consumer Electronics",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "GS",
+    "company_name": "Goldman Sachs",
+    "sector": "Financials",
+    "sub_industry": "Investment Banking & Brokerage",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "GWW",
+    "company_name": "W. W. Grainger",
+    "sector": "Industrials",
+    "sub_industry": "Industrial Machinery & Supplies & Components",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "HAL",
+    "company_name": "Halliburton",
+    "sector": "Energy",
+    "sub_industry": "Oil & Gas Equipment & Services",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "HAS",
+    "company_name": "Hasbro",
+    "sector": "Consumer Discretionary",
+    "sub_industry": "Leisure Products",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "HBAN",
+    "company_name": "Huntington Bancshares",
+    "sector": "Financials",
+    "sub_industry": "Regional Banks",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "HCA",
+    "company_name": "HCA Healthcare",
+    "sector": "Health Care",
+    "sub_industry": "Health Care Facilities",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "HD",
+    "company_name": "Home Depot (The)",
+    "sector": "Consumer Discretionary",
+    "sub_industry": "Home Improvement Retail",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "HIG",
+    "company_name": "Hartford (The)",
+    "sector": "Financials",
+    "sub_industry": "Property & Casualty Insurance",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "HII",
+    "company_name": "Huntington Ingalls Industries",
+    "sector": "Industrials",
+    "sub_industry": "Aerospace & Defense",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "HLT",
+    "company_name": "Hilton Worldwide",
+    "sector": "Consumer Discretionary",
+    "sub_industry": "Hotels, Resorts & Cruise Lines",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "HON",
+    "company_name": "Honeywell Technologies",
+    "sector": "Industrials",
+    "sub_industry": "Industrial Conglomerates",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "HONA",
+    "company_name": "Honeywell Aerospace",
+    "sector": "Industrials",
+    "sub_industry": "Aerospace & Defense",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "HOOD",
+    "company_name": "Robinhood Markets",
+    "sector": "Financials",
+    "sub_industry": "Investment Banking & Brokerage",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "HPE",
+    "company_name": "Hewlett Packard Enterprise",
+    "sector": "Information Technology",
+    "sub_industry": "Technology Hardware, Storage & Peripherals",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "HPQ",
+    "company_name": "HP Inc.",
+    "sector": "Information Technology",
+    "sub_industry": "Technology Hardware, Storage & Peripherals",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "HRL",
+    "company_name": "Hormel Foods",
+    "sector": "Consumer Staples",
+    "sub_industry": "Packaged Foods & Meats",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "HSIC",
+    "company_name": "Henry Schein",
+    "sector": "Health Care",
+    "sub_industry": "Health Care Distributors",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "HST",
+    "company_name": "Host Hotels & Resorts",
+    "sector": "Real Estate",
+    "sub_industry": "Hotel & Resort REITs",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "HSY",
+    "company_name": "Hershey Company (The)",
+    "sector": "Consumer Staples",
+    "sub_industry": "Packaged Foods & Meats",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "HUBB",
+    "company_name": "Hubbell Incorporated",
+    "sector": "Industrials",
+    "sub_industry": "Industrial Machinery & Supplies & Components",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "HUM",
+    "company_name": "Humana",
+    "sector": "Health Care",
+    "sub_industry": "Managed Health Care",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "HWM",
+    "company_name": "Howmet Aerospace",
+    "sector": "Industrials",
+    "sub_industry": "Aerospace & Defense",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "IBKR",
+    "company_name": "Interactive Brokers",
+    "sector": "Financials",
+    "sub_industry": "Investment Banking & Brokerage",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "IBM",
+    "company_name": "IBM",
+    "sector": "Information Technology",
+    "sub_industry": "IT Consulting & Other Services",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "ICE",
+    "company_name": "Intercontinental Exchange",
+    "sector": "Financials",
+    "sub_industry": "Financial Exchanges & Data",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "IDXX",
+    "company_name": "Idexx Laboratories",
+    "sector": "Health Care",
+    "sub_industry": "Health Care Equipment",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "IEX",
+    "company_name": "IDEX Corporation",
+    "sector": "Industrials",
+    "sub_industry": "Industrial Machinery & Supplies & Components",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "IFF",
+    "company_name": "International Flavors & Fragrances",
+    "sector": "Materials",
+    "sub_industry": "Specialty Chemicals",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "INCY",
+    "company_name": "Incyte",
+    "sector": "Health Care",
+    "sub_industry": "Biotechnology",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "INTC",
+    "company_name": "Intel",
+    "sector": "Information Technology",
+    "sub_industry": "Semiconductors",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "INTU",
+    "company_name": "Intuit",
+    "sector": "Information Technology",
+    "sub_industry": "Application Software",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "INVH",
+    "company_name": "Invitation Homes",
+    "sector": "Real Estate",
+    "sub_industry": "Single-Family Residential REITs",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "IP",
+    "company_name": "International Paper",
+    "sector": "Materials",
+    "sub_industry": "Paper & Plastic Packaging Products & Materials",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "IQV",
+    "company_name": "IQVIA",
+    "sector": "Health Care",
+    "sub_industry": "Life Sciences Tools & Services",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "IR",
+    "company_name": "Ingersoll Rand",
+    "sector": "Industrials",
+    "sub_industry": "Industrial Machinery & Supplies & Components",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "IRM",
+    "company_name": "Iron Mountain",
+    "sector": "Real Estate",
+    "sub_industry": "Other Specialized REITs",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "ISRG",
+    "company_name": "Intuitive Surgical",
+    "sector": "Health Care",
+    "sub_industry": "Health Care Equipment",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "IT",
+    "company_name": "Gartner",
+    "sector": "Information Technology",
+    "sub_industry": "IT Consulting & Other Services",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "ITW",
+    "company_name": "Illinois Tool Works",
+    "sector": "Industrials",
+    "sub_industry": "Industrial Machinery & Supplies & Components",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "IVZ",
+    "company_name": "Invesco",
+    "sector": "Financials",
+    "sub_industry": "Asset Management & Custody Banks",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "J",
+    "company_name": "Jacobs Solutions",
+    "sector": "Industrials",
+    "sub_industry": "Construction & Engineering",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "JBHT",
+    "company_name": "J.B. Hunt",
+    "sector": "Industrials",
+    "sub_industry": "Cargo Ground Transportation",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "JBL",
+    "company_name": "Jabil",
+    "sector": "Information Technology",
+    "sub_industry": "Electronic Manufacturing Services",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "JCI",
+    "company_name": "Johnson Controls",
+    "sector": "Industrials",
+    "sub_industry": "Building Products",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "JKHY",
+    "company_name": "Jack Henry & Associates",
+    "sector": "Financials",
+    "sub_industry": "Transaction & Payment Processing Services",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "JNJ",
+    "company_name": "Johnson & Johnson",
+    "sector": "Health Care",
+    "sub_industry": "Pharmaceuticals",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "JPM",
+    "company_name": "JPMorgan Chase",
+    "sector": "Financials",
+    "sub_industry": "Diversified Banks",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "KDP",
+    "company_name": "Keurig Dr Pepper",
+    "sector": "Consumer Staples",
+    "sub_industry": "Soft Drinks & Non-alcoholic Beverages",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "KEY",
+    "company_name": "KeyCorp",
+    "sector": "Financials",
+    "sub_industry": "Regional Banks",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "KEYS",
+    "company_name": "Keysight Technologies",
+    "sector": "Information Technology",
+    "sub_industry": "Electronic Equipment & Instruments",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "KHC",
+    "company_name": "Kraft Heinz",
+    "sector": "Consumer Staples",
+    "sub_industry": "Packaged Foods & Meats",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "KIM",
+    "company_name": "Kimco Realty",
+    "sector": "Real Estate",
+    "sub_industry": "Retail REITs",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "KKR",
+    "company_name": "KKR & Co.",
+    "sector": "Financials",
+    "sub_industry": "Asset Management & Custody Banks",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "KLAC",
+    "company_name": "KLA Corporation",
+    "sector": "Information Technology",
+    "sub_industry": "Semiconductor Materials & Equipment",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "KMB",
+    "company_name": "Kimberly-Clark",
+    "sector": "Consumer Staples",
+    "sub_industry": "Household Products",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "KMI",
+    "company_name": "Kinder Morgan",
+    "sector": "Energy",
+    "sub_industry": "Oil & Gas Storage & Transportation",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "KO",
+    "company_name": "Coca-Cola Company (The)",
+    "sector": "Consumer Staples",
+    "sub_industry": "Soft Drinks & Non-alcoholic Beverages",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "KR",
+    "company_name": "Kroger",
+    "sector": "Consumer Staples",
+    "sub_industry": "Food Retail",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "KVUE",
+    "company_name": "Kenvue",
+    "sector": "Consumer Staples",
+    "sub_industry": "Personal Care Products",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "L",
+    "company_name": "Loews Corporation",
+    "sector": "Financials",
+    "sub_industry": "Multi-line Insurance",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "LDOS",
+    "company_name": "Leidos",
+    "sector": "Industrials",
+    "sub_industry": "Diversified Support Services",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "LEN",
+    "company_name": "Lennar",
+    "sector": "Consumer Discretionary",
+    "sub_industry": "Homebuilding",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "LH",
+    "company_name": "Labcorp",
+    "sector": "Health Care",
+    "sub_industry": "Health Care Services",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "LHX",
+    "company_name": "L3Harris",
+    "sector": "Industrials",
+    "sub_industry": "Aerospace & Defense",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "LII",
+    "company_name": "Lennox International",
+    "sector": "Industrials",
+    "sub_industry": "Building Products",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "LIN",
+    "company_name": "Linde plc",
+    "sector": "Materials",
+    "sub_industry": "Industrial Gases",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "LITE",
+    "company_name": "Lumentum",
+    "sector": "Information Technology",
+    "sub_industry": "Communications Equipment",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "LLY",
+    "company_name": "Lilly (Eli)",
+    "sector": "Health Care",
+    "sub_industry": "Pharmaceuticals",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "LMT",
+    "company_name": "Lockheed Martin",
+    "sector": "Industrials",
+    "sub_industry": "Aerospace & Defense",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "LNT",
+    "company_name": "Alliant Energy",
+    "sector": "Utilities",
+    "sub_industry": "Electric Utilities",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "LOW",
+    "company_name": "Lowe's",
+    "sector": "Consumer Discretionary",
+    "sub_industry": "Home Improvement Retail",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "LRCX",
+    "company_name": "Lam Research",
+    "sector": "Information Technology",
+    "sub_industry": "Semiconductor Materials & Equipment",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "LULU",
+    "company_name": "Lululemon Athletica",
+    "sector": "Consumer Discretionary",
+    "sub_industry": "Apparel, Accessories & Luxury Goods",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "LUV",
+    "company_name": "Southwest Airlines",
+    "sector": "Industrials",
+    "sub_industry": "Passenger Airlines",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "LVS",
+    "company_name": "Las Vegas Sands",
+    "sector": "Consumer Discretionary",
+    "sub_industry": "Casinos & Gaming",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "LYB",
+    "company_name": "LyondellBasell",
+    "sector": "Materials",
+    "sub_industry": "Specialty Chemicals",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "LYV",
+    "company_name": "Live Nation Entertainment",
+    "sector": "Communication Services",
+    "sub_industry": "Movies & Entertainment",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "MA",
+    "company_name": "Mastercard",
+    "sector": "Financials",
+    "sub_industry": "Transaction & Payment Processing Services",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "MAA",
+    "company_name": "Mid-America Apartment Communities",
+    "sector": "Real Estate",
+    "sub_industry": "Multi-Family Residential REITs",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "MAR",
+    "company_name": "Marriott International",
+    "sector": "Consumer Discretionary",
+    "sub_industry": "Hotels, Resorts & Cruise Lines",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "MAS",
+    "company_name": "Masco",
+    "sector": "Industrials",
+    "sub_industry": "Building Products",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "MCD",
+    "company_name": "McDonald's",
+    "sector": "Consumer Discretionary",
+    "sub_industry": "Restaurants",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "MCHP",
+    "company_name": "Microchip Technology",
+    "sector": "Information Technology",
+    "sub_industry": "Semiconductors",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "MCK",
+    "company_name": "McKesson Corporation",
+    "sector": "Health Care",
+    "sub_industry": "Health Care Distributors",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "MCO",
+    "company_name": "Moody's Corporation",
+    "sector": "Financials",
+    "sub_industry": "Financial Exchanges & Data",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "MDLZ",
+    "company_name": "Mondelez International",
+    "sector": "Consumer Staples",
+    "sub_industry": "Packaged Foods & Meats",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "MDT",
+    "company_name": "Medtronic",
+    "sector": "Health Care",
+    "sub_industry": "Health Care Equipment",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "MET",
+    "company_name": "MetLife",
+    "sector": "Financials",
+    "sub_industry": "Life & Health Insurance",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "META",
+    "company_name": "Meta Platforms",
+    "sector": "Communication Services",
+    "sub_industry": "Interactive Media & Services",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "MGM",
+    "company_name": "MGM Resorts",
+    "sector": "Consumer Discretionary",
+    "sub_industry": "Casinos & Gaming",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "MKC",
+    "company_name": "McCormick & Company",
+    "sector": "Consumer Staples",
+    "sub_industry": "Packaged Foods & Meats",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "MLM",
+    "company_name": "Martin Marietta Materials",
+    "sector": "Materials",
+    "sub_industry": "Construction Materials",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "MMM",
+    "company_name": "3M",
+    "sector": "Industrials",
+    "sub_industry": "Industrial Conglomerates",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "MNST",
+    "company_name": "Monster Beverage",
+    "sector": "Consumer Staples",
+    "sub_industry": "Soft Drinks & Non-alcoholic Beverages",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "MO",
+    "company_name": "Altria",
+    "sector": "Consumer Staples",
+    "sub_industry": "Tobacco",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "MOS",
+    "company_name": "Mosaic Company (The)",
+    "sector": "Materials",
+    "sub_industry": "Fertilizers & Agricultural Chemicals",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "MPC",
+    "company_name": "Marathon Petroleum",
+    "sector": "Energy",
+    "sub_industry": "Oil & Gas Refining & Marketing",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "MPWR",
+    "company_name": "Monolithic Power Systems",
+    "sector": "Information Technology",
+    "sub_industry": "Semiconductors",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "MRK",
+    "company_name": "Merck & Co.",
+    "sector": "Health Care",
+    "sub_industry": "Pharmaceuticals",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "MRNA",
+    "company_name": "Moderna",
+    "sector": "Health Care",
+    "sub_industry": "Biotechnology",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "MRSH",
+    "company_name": "Marsh McLennan",
+    "sector": "Financials",
+    "sub_industry": "Insurance Brokers",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "MRVL",
+    "company_name": "Marvell Technology",
+    "sector": "Information Technology",
+    "sub_industry": "Semiconductors",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "MS",
+    "company_name": "Morgan Stanley",
+    "sector": "Financials",
+    "sub_industry": "Investment Banking & Brokerage",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "MSCI",
+    "company_name": "MSCI Inc.",
+    "sector": "Financials",
+    "sub_industry": "Financial Exchanges & Data",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "MSFT",
+    "company_name": "Microsoft",
+    "sector": "Information Technology",
+    "sub_industry": "Systems Software",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "MSI",
+    "company_name": "Motorola Solutions",
+    "sector": "Information Technology",
+    "sub_industry": "Communications Equipment",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "MTB",
+    "company_name": "M&T Bank",
+    "sector": "Financials",
+    "sub_industry": "Regional Banks",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "MTD",
+    "company_name": "Mettler Toledo",
+    "sector": "Health Care",
+    "sub_industry": "Life Sciences Tools & Services",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "MU",
+    "company_name": "Micron Technology",
+    "sector": "Information Technology",
+    "sub_industry": "Semiconductors",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "NCLH",
+    "company_name": "Norwegian Cruise Line Holdings",
+    "sector": "Consumer Discretionary",
+    "sub_industry": "Hotels, Resorts & Cruise Lines",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "NDAQ",
+    "company_name": "Nasdaq, Inc.",
+    "sector": "Financials",
+    "sub_industry": "Financial Exchanges & Data",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "NDSN",
+    "company_name": "Nordson Corporation",
+    "sector": "Industrials",
+    "sub_industry": "Industrial Machinery & Supplies & Components",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "NEE",
+    "company_name": "NextEra Energy",
+    "sector": "Utilities",
+    "sub_industry": "Multi-Utilities",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "NEM",
+    "company_name": "Newmont",
+    "sector": "Materials",
+    "sub_industry": "Gold",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "NFLX",
+    "company_name": "Netflix",
+    "sector": "Communication Services",
+    "sub_industry": "Movies & Entertainment",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "NI",
+    "company_name": "NiSource",
+    "sector": "Utilities",
+    "sub_industry": "Multi-Utilities",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "NKE",
+    "company_name": "Nike, Inc.",
+    "sector": "Consumer Discretionary",
+    "sub_industry": "Apparel, Accessories & Luxury Goods",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "NOC",
+    "company_name": "Northrop Grumman",
+    "sector": "Industrials",
+    "sub_industry": "Aerospace & Defense",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "NOW",
+    "company_name": "ServiceNow",
+    "sector": "Information Technology",
+    "sub_industry": "Systems Software",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "NRG",
+    "company_name": "NRG Energy",
+    "sector": "Utilities",
+    "sub_industry": "Independent Power Producers & Energy Traders",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "NSC",
+    "company_name": "Norfolk Southern",
+    "sector": "Industrials",
+    "sub_industry": "Rail Transportation",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "NTAP",
+    "company_name": "NetApp",
+    "sector": "Information Technology",
+    "sub_industry": "Technology Hardware, Storage & Peripherals",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "NTRS",
+    "company_name": "Northern Trust",
+    "sector": "Financials",
+    "sub_industry": "Asset Management & Custody Banks",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "NUE",
+    "company_name": "Nucor",
+    "sector": "Materials",
+    "sub_industry": "Steel",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "NVDA",
+    "company_name": "Nvidia",
+    "sector": "Information Technology",
+    "sub_industry": "Semiconductors",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "NVR",
+    "company_name": "NVR, Inc.",
+    "sector": "Consumer Discretionary",
+    "sub_industry": "Homebuilding",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "NWS",
+    "company_name": "News Corp (Class B)",
+    "sector": "Communication Services",
+    "sub_industry": "Publishing",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "NWSA",
+    "company_name": "News Corp (Class A)",
+    "sector": "Communication Services",
+    "sub_industry": "Publishing",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "NXPI",
+    "company_name": "NXP Semiconductors",
+    "sector": "Information Technology",
+    "sub_industry": "Semiconductors",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "O",
+    "company_name": "Realty Income",
+    "sector": "Real Estate",
+    "sub_industry": "Retail REITs",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "ODFL",
+    "company_name": "Old Dominion",
+    "sector": "Industrials",
+    "sub_industry": "Cargo Ground Transportation",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "OKE",
+    "company_name": "Oneok",
+    "sector": "Energy",
+    "sub_industry": "Oil & Gas Storage & Transportation",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "OMC",
+    "company_name": "Omnicom Group",
+    "sector": "Communication Services",
+    "sub_industry": "Advertising",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "ON",
+    "company_name": "ON Semiconductor",
+    "sector": "Information Technology",
+    "sub_industry": "Semiconductors",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "ORCL",
+    "company_name": "Oracle Corporation",
+    "sector": "Information Technology",
+    "sub_industry": "Application Software",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "ORLY",
+    "company_name": "O\u2019Reilly Automotive",
+    "sector": "Consumer Discretionary",
+    "sub_industry": "Automotive Retail",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "OTIS",
+    "company_name": "Otis Worldwide",
+    "sector": "Industrials",
+    "sub_industry": "Industrial Machinery & Supplies & Components",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "OXY",
+    "company_name": "Occidental Petroleum",
+    "sector": "Energy",
+    "sub_industry": "Oil & Gas Exploration & Production",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "PANW",
+    "company_name": "Palo Alto Networks",
+    "sector": "Information Technology",
+    "sub_industry": "Systems Software",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "PAYX",
+    "company_name": "Paychex",
+    "sector": "Industrials",
+    "sub_industry": "Human Resource & Employment Services",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "PCAR",
+    "company_name": "Paccar",
+    "sector": "Industrials",
+    "sub_industry": "Construction Machinery & Heavy Transportation Equipment",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "PCG",
+    "company_name": "PG&E Corporation",
+    "sector": "Utilities",
+    "sub_industry": "Multi-Utilities",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "PEG",
+    "company_name": "Public Service Enterprise Group",
+    "sector": "Utilities",
+    "sub_industry": "Electric Utilities",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "PEP",
+    "company_name": "PepsiCo",
+    "sector": "Consumer Staples",
+    "sub_industry": "Soft Drinks & Non-alcoholic Beverages",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "PFE",
+    "company_name": "Pfizer",
+    "sector": "Health Care",
+    "sub_industry": "Pharmaceuticals",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "PFG",
+    "company_name": "Principal Financial Group",
+    "sector": "Financials",
+    "sub_industry": "Life & Health Insurance",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "PG",
+    "company_name": "Procter & Gamble",
+    "sector": "Consumer Staples",
+    "sub_industry": "Personal Care Products",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "PGR",
+    "company_name": "Progressive Corporation",
+    "sector": "Financials",
+    "sub_industry": "Property & Casualty Insurance",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "PH",
+    "company_name": "Parker Hannifin",
+    "sector": "Industrials",
+    "sub_industry": "Industrial Machinery & Supplies & Components",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "PHM",
+    "company_name": "PulteGroup",
+    "sector": "Consumer Discretionary",
+    "sub_industry": "Homebuilding",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "PKG",
+    "company_name": "Packaging Corporation of America",
+    "sector": "Materials",
+    "sub_industry": "Paper & Plastic Packaging Products & Materials",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "PLD",
+    "company_name": "Prologis",
+    "sector": "Real Estate",
+    "sub_industry": "Industrial REITs",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "PLTR",
+    "company_name": "Palantir Technologies",
+    "sector": "Information Technology",
+    "sub_industry": "Application Software",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "PM",
+    "company_name": "Philip Morris International",
+    "sector": "Consumer Staples",
+    "sub_industry": "Tobacco",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "PNC",
+    "company_name": "PNC Financial Services",
+    "sector": "Financials",
+    "sub_industry": "Diversified Banks",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "PNR",
+    "company_name": "Pentair",
+    "sector": "Industrials",
+    "sub_industry": "Industrial Machinery & Supplies & Components",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "PNW",
+    "company_name": "Pinnacle West Capital",
+    "sector": "Utilities",
+    "sub_industry": "Multi-Utilities",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "PODD",
+    "company_name": "Insulet Corporation",
+    "sector": "Health Care",
+    "sub_industry": "Health Care Equipment",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "PPG",
+    "company_name": "PPG Industries",
+    "sector": "Materials",
+    "sub_industry": "Specialty Chemicals",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "PPL",
+    "company_name": "PPL Corporation",
+    "sector": "Utilities",
+    "sub_industry": "Electric Utilities",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "PRU",
+    "company_name": "Prudential Financial",
+    "sector": "Financials",
+    "sub_industry": "Life & Health Insurance",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "PSA",
+    "company_name": "Public Storage",
+    "sector": "Real Estate",
+    "sub_industry": "Self-Storage REITs",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "PSKY",
+    "company_name": "Paramount Skydance Corporation",
+    "sector": "Communication Services",
+    "sub_industry": "Movies & Entertainment",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "PSX",
+    "company_name": "Phillips 66",
+    "sector": "Energy",
+    "sub_industry": "Oil & Gas Refining & Marketing",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "PTC",
+    "company_name": "PTC Inc.",
+    "sector": "Information Technology",
+    "sub_industry": "Application Software",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "PWR",
+    "company_name": "Quanta Services",
+    "sector": "Industrials",
+    "sub_industry": "Construction & Engineering",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "PYPL",
+    "company_name": "PayPal",
+    "sector": "Financials",
+    "sub_industry": "Transaction & Payment Processing Services",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "Q",
+    "company_name": "Qnity Electronics",
+    "sector": "Information Technology",
+    "sub_industry": "Semiconductor Materials & Equipment",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "QCOM",
+    "company_name": "Qualcomm",
+    "sector": "Information Technology",
+    "sub_industry": "Semiconductors",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "RCL",
+    "company_name": "Royal Caribbean Group",
+    "sector": "Consumer Discretionary",
+    "sub_industry": "Hotels, Resorts & Cruise Lines",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "REG",
+    "company_name": "Regency Centers",
+    "sector": "Real Estate",
+    "sub_industry": "Retail REITs",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "REGN",
+    "company_name": "Regeneron Pharmaceuticals",
+    "sector": "Health Care",
+    "sub_industry": "Biotechnology",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "RF",
+    "company_name": "Regions Financial Corporation",
+    "sector": "Financials",
+    "sub_industry": "Regional Banks",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "RJF",
+    "company_name": "Raymond James Financial",
+    "sector": "Financials",
+    "sub_industry": "Investment Banking & Brokerage",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "RL",
+    "company_name": "Ralph Lauren Corporation",
+    "sector": "Consumer Discretionary",
+    "sub_industry": "Apparel, Accessories & Luxury Goods",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "RMD",
+    "company_name": "ResMed",
+    "sector": "Health Care",
+    "sub_industry": "Health Care Equipment",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "ROK",
+    "company_name": "Rockwell Automation",
+    "sector": "Industrials",
+    "sub_industry": "Electrical Components & Equipment",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "ROL",
+    "company_name": "Rollins, Inc.",
+    "sector": "Industrials",
+    "sub_industry": "Environmental & Facilities Services",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "ROP",
+    "company_name": "Roper Technologies",
+    "sector": "Information Technology",
+    "sub_industry": "Electronic Equipment & Instruments",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "ROST",
+    "company_name": "Ross Stores",
+    "sector": "Consumer Discretionary",
+    "sub_industry": "Apparel Retail",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "RSG",
+    "company_name": "Republic Services",
+    "sector": "Industrials",
+    "sub_industry": "Environmental & Facilities Services",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "RTX",
+    "company_name": "RTX Corporation",
+    "sector": "Industrials",
+    "sub_industry": "Aerospace & Defense",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "RVTY",
+    "company_name": "Revvity",
+    "sector": "Health Care",
+    "sub_industry": "Health Care Equipment",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "SBAC",
+    "company_name": "SBA Communications",
+    "sector": "Real Estate",
+    "sub_industry": "Telecom Tower REITs",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "SBUX",
+    "company_name": "Starbucks",
+    "sector": "Consumer Discretionary",
+    "sub_industry": "Restaurants",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "SCHW",
+    "company_name": "Charles Schwab Corporation",
+    "sector": "Financials",
+    "sub_industry": "Investment Banking & Brokerage",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "SHW",
+    "company_name": "Sherwin-Williams",
+    "sector": "Materials",
+    "sub_industry": "Specialty Chemicals",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "SJM",
+    "company_name": "J.M. Smucker Company (The)",
+    "sector": "Consumer Staples",
+    "sub_industry": "Packaged Foods & Meats",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "SLB",
+    "company_name": "Schlumberger",
+    "sector": "Energy",
+    "sub_industry": "Oil & Gas Equipment & Services",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "SMCI",
+    "company_name": "Supermicro",
+    "sector": "Information Technology",
+    "sub_industry": "Technology Hardware, Storage & Peripherals",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "SNA",
+    "company_name": "Snap-on",
+    "sector": "Industrials",
+    "sub_industry": "Industrial Machinery & Supplies & Components",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "SNDK",
+    "company_name": "Sandisk",
+    "sector": "Information Technology",
+    "sub_industry": "Technology Hardware, Storage & Peripherals",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "SNPS",
+    "company_name": "Synopsys",
+    "sector": "Information Technology",
+    "sub_industry": "Application Software",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "SO",
+    "company_name": "Southern Company",
+    "sector": "Utilities",
+    "sub_industry": "Electric Utilities",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "SOLV",
+    "company_name": "Solventum",
+    "sector": "Health Care",
+    "sub_industry": "Health Care Technology",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "SPG",
+    "company_name": "Simon Property Group",
+    "sector": "Real Estate",
+    "sub_industry": "Retail REITs",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "SPGI",
+    "company_name": "S&P Global",
+    "sector": "Financials",
+    "sub_industry": "Financial Exchanges & Data",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "SRE",
+    "company_name": "Sempra",
+    "sector": "Utilities",
+    "sub_industry": "Multi-Utilities",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "STE",
+    "company_name": "Steris",
+    "sector": "Health Care",
+    "sub_industry": "Health Care Equipment",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "STLD",
+    "company_name": "Steel Dynamics",
+    "sector": "Materials",
+    "sub_industry": "Steel",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "STT",
+    "company_name": "State Street Corporation",
+    "sector": "Financials",
+    "sub_industry": "Asset Management & Custody Banks",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "STX",
+    "company_name": "Seagate Technology",
+    "sector": "Information Technology",
+    "sub_industry": "Technology Hardware, Storage & Peripherals",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "STZ",
+    "company_name": "Constellation Brands",
+    "sector": "Consumer Staples",
+    "sub_industry": "Distillers & Vintners",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "SW",
+    "company_name": "Smurfit Westrock",
+    "sector": "Materials",
+    "sub_industry": "Paper & Plastic Packaging Products & Materials",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "SWK",
+    "company_name": "Stanley Black & Decker",
+    "sector": "Industrials",
+    "sub_industry": "Industrial Machinery & Supplies & Components",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "SWKS",
+    "company_name": "Skyworks Solutions",
+    "sector": "Information Technology",
+    "sub_industry": "Semiconductors",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "SYF",
+    "company_name": "Synchrony Financial",
+    "sector": "Financials",
+    "sub_industry": "Consumer Finance",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "SYK",
+    "company_name": "Stryker Corporation",
+    "sector": "Health Care",
+    "sub_industry": "Health Care Equipment",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "SYY",
+    "company_name": "Sysco",
+    "sector": "Consumer Staples",
+    "sub_industry": "Food Distributors",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "T",
+    "company_name": "AT&T",
+    "sector": "Communication Services",
+    "sub_industry": "Integrated Telecommunication Services",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "TAP",
+    "company_name": "Molson Coors Beverage Company",
+    "sector": "Consumer Staples",
+    "sub_industry": "Brewers",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "TDG",
+    "company_name": "TransDigm Group",
+    "sector": "Industrials",
+    "sub_industry": "Aerospace & Defense",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "TDY",
+    "company_name": "Teledyne Technologies",
+    "sector": "Information Technology",
+    "sub_industry": "Electronic Equipment & Instruments",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "TECH",
+    "company_name": "Bio-Techne",
+    "sector": "Health Care",
+    "sub_industry": "Life Sciences Tools & Services",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "TEL",
+    "company_name": "TE Connectivity",
+    "sector": "Information Technology",
+    "sub_industry": "Electronic Manufacturing Services",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "TER",
+    "company_name": "Teradyne",
+    "sector": "Information Technology",
+    "sub_industry": "Semiconductor Materials & Equipment",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "TFC",
+    "company_name": "Truist Financial",
+    "sector": "Financials",
+    "sub_industry": "Diversified Banks",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "TGT",
+    "company_name": "Target Corporation",
+    "sector": "Consumer Staples",
+    "sub_industry": "Consumer Staples Merchandise Retail",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "TJX",
+    "company_name": "TJX Companies",
+    "sector": "Consumer Discretionary",
+    "sub_industry": "Apparel Retail",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "TKO",
+    "company_name": "TKO Group Holdings",
+    "sector": "Communication Services",
+    "sub_industry": "Movies & Entertainment",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "TMO",
+    "company_name": "Thermo Fisher Scientific",
+    "sector": "Health Care",
+    "sub_industry": "Life Sciences Tools & Services",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "TMUS",
+    "company_name": "T-Mobile US",
+    "sector": "Communication Services",
+    "sub_industry": "Wireless Telecommunication Services",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "TPL",
+    "company_name": "Texas Pacific Land Corporation",
+    "sector": "Energy",
+    "sub_industry": "Oil & Gas Exploration & Production",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "TPR",
+    "company_name": "Tapestry, Inc.",
+    "sector": "Consumer Discretionary",
+    "sub_industry": "Apparel, Accessories & Luxury Goods",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "TRGP",
+    "company_name": "Targa Resources",
+    "sector": "Energy",
+    "sub_industry": "Oil & Gas Storage & Transportation",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "TRMB",
+    "company_name": "Trimble Inc.",
+    "sector": "Information Technology",
+    "sub_industry": "Application Software",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "TROW",
+    "company_name": "T. Rowe Price",
+    "sector": "Financials",
+    "sub_industry": "Asset Management & Custody Banks",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "TRV",
+    "company_name": "Travelers Companies (The)",
+    "sector": "Financials",
+    "sub_industry": "Property & Casualty Insurance",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "TSCO",
+    "company_name": "Tractor Supply",
+    "sector": "Consumer Discretionary",
+    "sub_industry": "Other Specialty Retail",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "TSLA",
+    "company_name": "Tesla, Inc.",
+    "sector": "Consumer Discretionary",
+    "sub_industry": "Automobile Manufacturers",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "TSN",
+    "company_name": "Tyson Foods",
+    "sector": "Consumer Staples",
+    "sub_industry": "Packaged Foods & Meats",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "TT",
+    "company_name": "Trane Technologies",
+    "sector": "Industrials",
+    "sub_industry": "Building Products",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "TTD",
+    "company_name": "Trade Desk (The)",
+    "sector": "Communication Services",
+    "sub_industry": "Advertising",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "TTWO",
+    "company_name": "Take-Two Interactive",
+    "sector": "Communication Services",
+    "sub_industry": "Interactive Home Entertainment",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "TXN",
+    "company_name": "Texas Instruments",
+    "sector": "Information Technology",
+    "sub_industry": "Semiconductors",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "TXT",
+    "company_name": "Textron",
+    "sector": "Industrials",
+    "sub_industry": "Aerospace & Defense",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "TYL",
+    "company_name": "Tyler Technologies",
+    "sector": "Information Technology",
+    "sub_industry": "Application Software",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "UAL",
+    "company_name": "United Airlines Holdings",
+    "sector": "Industrials",
+    "sub_industry": "Passenger Airlines",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "UBER",
+    "company_name": "Uber",
+    "sector": "Industrials",
+    "sub_industry": "Passenger Ground Transportation",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "UDR",
+    "company_name": "UDR, Inc.",
+    "sector": "Real Estate",
+    "sub_industry": "Multi-Family Residential REITs",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "UHS",
+    "company_name": "Universal Health Services",
+    "sector": "Health Care",
+    "sub_industry": "Health Care Facilities",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "ULTA",
+    "company_name": "Ulta Beauty",
+    "sector": "Consumer Discretionary",
+    "sub_industry": "Other Specialty Retail",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "UNH",
+    "company_name": "UnitedHealth Group",
+    "sector": "Health Care",
+    "sub_industry": "Managed Health Care",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "UNP",
+    "company_name": "Union Pacific Corporation",
+    "sector": "Industrials",
+    "sub_industry": "Rail Transportation",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "UPS",
+    "company_name": "United Parcel Service",
+    "sector": "Industrials",
+    "sub_industry": "Air Freight & Logistics",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "URI",
+    "company_name": "United Rentals",
+    "sector": "Industrials",
+    "sub_industry": "Trading Companies & Distributors",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "USB",
+    "company_name": "U.S. Bancorp",
+    "sector": "Financials",
+    "sub_industry": "Diversified Banks",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "V",
+    "company_name": "Visa Inc.",
+    "sector": "Financials",
+    "sub_industry": "Transaction & Payment Processing Services",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "VEEV",
+    "company_name": "Veeva Systems",
+    "sector": "Health Care",
+    "sub_industry": "Health Care Technology",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "VICI",
+    "company_name": "Vici Properties",
+    "sector": "Real Estate",
+    "sub_industry": "Hotel & Resort REITs",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "VLO",
+    "company_name": "Valero Energy",
+    "sector": "Energy",
+    "sub_industry": "Oil & Gas Refining & Marketing",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "VLTO",
+    "company_name": "Veralto",
+    "sector": "Industrials",
+    "sub_industry": "Environmental & Facilities Services",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "VMC",
+    "company_name": "Vulcan Materials Company",
+    "sector": "Materials",
+    "sub_industry": "Construction Materials",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "VRSK",
+    "company_name": "Verisk Analytics",
+    "sector": "Industrials",
+    "sub_industry": "Research & Consulting Services",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "VRSN",
+    "company_name": "Verisign",
+    "sector": "Information Technology",
+    "sub_industry": "Internet Services & Infrastructure",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "VRT",
+    "company_name": "Vertiv",
+    "sector": "Industrials",
+    "sub_industry": "Electrical Components & Equipment",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "VRTX",
+    "company_name": "Vertex Pharmaceuticals",
+    "sector": "Health Care",
+    "sub_industry": "Biotechnology",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "VST",
+    "company_name": "Vistra Corp.",
+    "sector": "Utilities",
+    "sub_industry": "Electric Utilities",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "VTR",
+    "company_name": "Ventas",
+    "sector": "Real Estate",
+    "sub_industry": "Health Care REITs",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "VTRS",
+    "company_name": "Viatris",
+    "sector": "Health Care",
+    "sub_industry": "Pharmaceuticals",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "VZ",
+    "company_name": "Verizon",
+    "sector": "Communication Services",
+    "sub_industry": "Integrated Telecommunication Services",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "WAB",
+    "company_name": "Wabtec",
+    "sector": "Industrials",
+    "sub_industry": "Construction Machinery & Heavy Transportation Equipment",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "WAT",
+    "company_name": "Waters Corporation",
+    "sector": "Health Care",
+    "sub_industry": "Life Sciences Tools & Services",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "WBD",
+    "company_name": "Warner Bros. Discovery",
+    "sector": "Communication Services",
+    "sub_industry": "Broadcasting",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "WDAY",
+    "company_name": "Workday, Inc.",
+    "sector": "Information Technology",
+    "sub_industry": "Application Software",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "WDC",
+    "company_name": "Western Digital",
+    "sector": "Information Technology",
+    "sub_industry": "Technology Hardware, Storage & Peripherals",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "WEC",
+    "company_name": "WEC Energy Group",
+    "sector": "Utilities",
+    "sub_industry": "Electric Utilities",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "WELL",
+    "company_name": "Welltower",
+    "sector": "Real Estate",
+    "sub_industry": "Health Care REITs",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "WFC",
+    "company_name": "Wells Fargo",
+    "sector": "Financials",
+    "sub_industry": "Diversified Banks",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "WM",
+    "company_name": "Waste Management",
+    "sector": "Industrials",
+    "sub_industry": "Environmental & Facilities Services",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "WMB",
+    "company_name": "Williams Companies",
+    "sector": "Energy",
+    "sub_industry": "Oil & Gas Storage & Transportation",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "WMT",
+    "company_name": "Walmart",
+    "sector": "Consumer Staples",
+    "sub_industry": "Consumer Staples Merchandise Retail",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "WRB",
+    "company_name": "W. R. Berkley Corporation",
+    "sector": "Financials",
+    "sub_industry": "Property & Casualty Insurance",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "WSM",
+    "company_name": "Williams-Sonoma, Inc.",
+    "sector": "Consumer Discretionary",
+    "sub_industry": "Homefurnishing Retail",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "WST",
+    "company_name": "West Pharmaceutical Services",
+    "sector": "Health Care",
+    "sub_industry": "Health Care Supplies",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "WTW",
+    "company_name": "Willis Towers Watson",
+    "sector": "Financials",
+    "sub_industry": "Insurance Brokers",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "WY",
+    "company_name": "Weyerhaeuser",
+    "sector": "Real Estate",
+    "sub_industry": "Timber REITs",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "WYNN",
+    "company_name": "Wynn Resorts",
+    "sector": "Consumer Discretionary",
+    "sub_industry": "Casinos & Gaming",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "XEL",
+    "company_name": "Xcel Energy",
+    "sector": "Utilities",
+    "sub_industry": "Multi-Utilities",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "XOM",
+    "company_name": "ExxonMobil",
+    "sector": "Energy",
+    "sub_industry": "Integrated Oil & Gas",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "XYL",
+    "company_name": "Xylem Inc.",
+    "sector": "Industrials",
+    "sub_industry": "Industrial Machinery & Supplies & Components",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "XYZ",
+    "company_name": "Block, Inc.",
+    "sector": "Financials",
+    "sub_industry": "Transaction & Payment Processing Services",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "YUM",
+    "company_name": "Yum! Brands",
+    "sector": "Consumer Discretionary",
+    "sub_industry": "Restaurants",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "ZBH",
+    "company_name": "Zimmer Biomet",
+    "sector": "Health Care",
+    "sub_industry": "Health Care Equipment",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "ZBRA",
+    "company_name": "Zebra Technologies",
+    "sector": "Information Technology",
+    "sub_industry": "Electronic Equipment & Instruments",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  },
+  {
+    "ticker": "ZTS",
+    "company_name": "Zoetis",
+    "sector": "Health Care",
+    "sub_industry": "Pharmaceuticals",
+    "exchange": "S&P 500 constituent",
+    "universe_name": "S&P 500",
+    "source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "retrieved_at": "2026-07-14T06:00:54.235095+00:00"
+  }
+]
