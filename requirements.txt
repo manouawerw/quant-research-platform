@@ -2,3 +2,5 @@ streamlit
 alpaca-py
 pandas
 plotly
+sqlalchemy
+psycopg2-binary
